@@ -1,7 +1,7 @@
 [
   {
     "title": "Graphcore",
-    "description": "My most relevant work experience is the on-call position I held for three years at Graphcore AS. Graphcore works on developing accelerators for AI and machine learning. \n There, I worked with experienced people who had valuable knowledge from several decades in the industry. I supported the hardware team with testing and writing test reports, lab setup, and assembling prototypes. The prototypes included M2000 systems, high-frequency cables, and optical components. In hindsight, I have found it extremely exciting to learn things at NTNU that I can directly relate to the work I did at Graphcore. \n See pictures bellow.",
+    "description": "My most relevant work experience is the on-call position I held for three years at Graphcore AS. Graphcore works on developing accelerators for AI and machine learning. \n\n There, I worked with experienced people who had valuable knowledge from several decades in the industry. I supported the hardware team with testing and writing test reports, lab setup, and assembling prototypes. The prototypes included M2000 systems, high-frequency cables, and optical components. In hindsight, I have found it extremely exciting to learn things at NTNU that I can directly relate to the work I did at Graphcore. \n\n See pictures bellow.",
     "images": [
       { "image": "Graphcore_logo.webp", "span": 4 },
       { "image": "graphcore.webp", "span": 2 },
@@ -31,12 +31,17 @@
   },
   {
     "title": "Online",
-    "description": "https://github.com/ESPR07/helene-volle-portfolio",
+    "description": "In 2024, I was part of the orientation week committee board (Velkom), together with 13 other members, responsible for planning and carrying out the orientation weeks for approximately 200 new Computer Science students at NTNU. The role required structured collaboration, clear division of responsibilities, and the ability to coordinate multiple parallel events over an intensive period. We organized a wide range of activities, including bowling, cinema nights, board game evenings, and the Online Games, as well as larger social events such as a silent disco, toga party, and joint events in collaboration with other student associations and study programmes. \n\n I was primarily responsible for profiling and practical implementation related to visibility and promotional material. This included taking lead responsibility for the design, ordering, and distribution of orientation shirts, banners, flyers, and other informational material delivered to new students. In addition, I actively contributed to general event planning and logistics.",
     "images": [
-      { "image": "chip.webp", "span": 1 },
-      { "image": "Graphcore.webp", "span": 1 },
-      { "image": "ipu.webp", "span": 1 },
-      { "image": "lab.webp", "span": 1 }
+      { "image": "logo.webp", "span": 6 },
+      { "image": "togafest-vors.webp", "span": 3 },
+      { "image": "togafest.webp", "span": 3 },
+      { "image": "bowling.webp", "span": 3 },
+      { "image": "bowling1.webp", "span": 3 },
+      { "image": "scilent-disco.webp", "span": 3 },
+      { "image": "scilent-disco1.webp", "span": 3 },
+      { "image": "vors.webp", "span": 3 },
+      { "image": "vors2.webp", "span": 3 }
     ]
   }
 ]
