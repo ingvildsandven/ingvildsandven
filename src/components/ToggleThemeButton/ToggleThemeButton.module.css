@@ -14,6 +14,10 @@
     display: block;
 }
 
+.slider_ball:hover{
+    cursor: pointer;
+}
+
 .slider_light{
     transform: translateX(0px);
     transition: transform 0.3s ease-in;

@@ -1,3 +1,6 @@
+html{
+    min-height: 100vh;
+}
 
 Link {
     text-decoration: none;
@@ -8,6 +11,6 @@ a{
     text-decoration: none;
 }
 
-div, section, a{
+div, section, a, h3{
     transition: background-color 0.3s ease-out, color 0.7s ease-in;
 }

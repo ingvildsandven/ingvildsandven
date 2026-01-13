@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Graphcore",
+    "description": "My most relevant work experience is the on-call position I held for three years at Graphcore AS. Graphcore works on developing accelerators for AI and machine learning. \n There, I worked with experienced people who had valuable knowledge from several decades in the industry. I supported the hardware team with testing and writing test reports, lab setup, and assembling prototypes. The prototypes included M2000 systems, high-frequency cables, and optical components. In hindsight, I have found it extremely exciting to learn things at NTNU that I can directly relate to the work I did at Graphcore. \n See pictures bellow.",
+    "images": [
+      { "image": "Graphcore_logo.webp", "span": 4 },
+      { "image": "graphcore.webp", "span": 2 },
+
+      { "image": "lab.webp", "span": 6 },
+
+      { "image": "attest.webp", "span": 3 },
+      { "image": "chip.webp", "span": 3 },
+
+      { "image": "rack1.webp", "span": 2 },
+      { "image": "ipu.webp", "span": 2 },
+      { "image": "rack2.webp", "span": 2 },
+
+      { "image": "rack3.webp", "span": 3 },
+      { "image": "tests.webp", "span": 3 },
+
+      { "image": "cable_setup_ipus.webp", "span": 3 },
+      { "image": "lab2.webp", "span": 3 },
+
+      { "image": "office.webp", "span": 6 },
+
+      { "image": "office2.webp", "span": 4 },
+      { "image": "rack.webp", "span": 2 },
+
+      { "image": "office3.webp", "span": 6 }
+    ]
+  },
+  {
+    "title": "Online",
+    "description": "https://github.com/ESPR07/helene-volle-portfolio",
+    "images": [
+      { "image": "chip.webp", "span": 1 },
+      { "image": "Graphcore.webp", "span": 1 },
+      { "image": "ipu.webp", "span": 1 },
+      { "image": "lab.webp", "span": 1 }
+    ]
+  }
+]

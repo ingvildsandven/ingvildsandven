@@ -1,7 +1,12 @@
 .experience {
   background-color: var(--main-color);
   width: 80vw;
+  max-width: 1100px;
   padding-bottom: 7vh;
+}
+.experience_title {
+  text-transform: uppercase;
+  color: var(--box-background)
 }
 
 .experience_card_container {

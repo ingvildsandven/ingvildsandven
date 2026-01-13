@@ -1,6 +1,5 @@
 .card_container {
   background-color: var(--box-background);
-  padding: 2px;
   position: relative;
 }
 
