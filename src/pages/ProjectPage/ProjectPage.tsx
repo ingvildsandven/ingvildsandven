@@ -52,12 +52,13 @@ function ProjectPage() {
       <Link to="/" className={style.link}>
         Back
       </Link>
-      <section className={style.links}>
+
+      <section className={style.header}>
         <h1>{projectData.title}</h1>
         {projectData.hosted ? (
           <SkillButton
             skill={"hosted"}
-            logo={"/src/assets/icons/linkedin.svg"}
+            logo={"/src/assets/icons/link.svg"}
             link={projectData.hosted}
           />
         ) : (
@@ -76,7 +77,7 @@ function ProjectPage() {
         <h2 className={style.display_none}>About</h2>
         <section className={style.overview}>
           <article className={style.technology_article}>
-            <h3>Technology</h3>
+            <h3 className={style.h3}>Technology</h3>
             <ul>
               {projectData.longDescription.technologyHighlights.map((tech) => {
                 return (
@@ -90,7 +91,7 @@ function ProjectPage() {
             </ul>
           </article>
           <article className={style.highlights_article}>
-            <h3>Highlights</h3>
+            <h3 className={style.h3}>Highlights</h3>
             <ul>
               {projectData.longDescription.highlights.map((high) => {
                 return <li key={high}>{high}</li>;
@@ -99,7 +100,7 @@ function ProjectPage() {
           </article>
           {projectData.collaborators[0] ? (
             <article className={style.collaborators_article}>
-              <h3>Collaborators</h3>
+              <h3 className={style.h3}>Collaborators</h3>
               {projectData.collaborators.map((person) => {
                 return (
                   <article>
@@ -125,14 +126,13 @@ function ProjectPage() {
       </div>
       <h2>Description</h2>
       <section className={style.description}>
-        <p>Start date: {projectData.startDate}</p>
-        <p>End date: {projectData.endDate}</p>
+        <p> {projectData.startDate} {projectData.endDate ? ("- " + projectData.endDate): ("")}</p>
         <p>{projectData.longDescription.intro}</p>
-        <h3>Motivation</h3>
+        <h3 className={style.h3}>Motivation</h3>
         <p>{projectData.longDescription.motivation}</p>
-        <h3>Process</h3>
+        <h3 className={style.h3}>Process</h3>
         <p>{projectData.longDescription.process}</p>
-        <h3>Future Additions May Include...</h3>
+        <h3 className={style.h3}>Future Additions</h3>
 
         <ul>
           {projectData.longDescription.futureAdditions.map((add) => {
