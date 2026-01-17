@@ -11,7 +11,7 @@ function ConstructionCompontent() {
     <>
       <h2 className={style.construction_header}>Construction site</h2>
       <section className={style.card_container}>
-        {data.projects.map((project: Project) => (
+        {Object.values(data.projects).map((project: Project) => (
           <ConstructionCard
             key={project.title}
             title={project.title}

@@ -1,15 +1,15 @@
 {
-  "projects": [
-    {
+  "projects": {
+    "helene_volle_portfolio": {
       "title": "Helene Volle Portfolio",
       "github": "https://github.com/ESPR07/helene-volle-portfolio",
       "hosted": "https://helenevolle.com/",
       "image": [
-        "https://private-user-images.githubusercontent.com/111272036/524987479-fb5f7736-f91a-40be-b217-363f0d67c13f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjU0ODk4MDUsIm5iZiI6MTc2NTQ4OTUwNSwicGF0aCI6Ii8xMTEyNzIwMzYvNTI0OTg3NDc5LWZiNWY3NzM2LWY5MWEtNDBiZS1iMjE3LTM2M2YwZDY3YzEzZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjExJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIxMVQyMTQ1MDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wYjA0YmJmNWIyNDAyYWE1MTU1ZjgxYWQ5MjY5MWFjOTEwZjU5OTAwNjFjOWFmOTkzZDUzMzQ2ODhiOWYyNjNhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.CEs3dcq-o0aUgTOsJgcJFXjqG11cLDFTU0WVx52O0zU"
+        "https://private-user-images.githubusercontent.com/111272036/524987479-fb5f7736-f91a-40be-b217-363f0d67c13f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg2NTY3OTAsIm5iZiI6MTc2ODY1NjQ5MCwicGF0aCI6Ii8xMTEyNzIwMzYvNTI0OTg3NDc5LWZiNWY3NzM2LWY5MWEtNDBiZS1iMjE3LTM2M2YwZDY3YzEzZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMTE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDExN1QxMzI4MTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xNDk4YWU2NjU1YzczYjZmMmY1ODVlYmRjYmFjOWU2OTRkM2I2NDFmYzVhN2UzZWU3NGRkZmYyMjIwYTE1ZDE3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ebZ98LLFycM_5KdtRu74akHQ_DNW8lArP5qSrsjF9CU"
       ],
       "shortDescription": "Portfolio for an artist",
-      "startDate": "2024-06-26",
-      "endDate": "2024-07-14",
+      "startDate": "26-06-2024",
+      "endDate": "14-07-2024",
       "collaborators": [
         {
           "name": "Sindre Derås",
@@ -18,7 +18,7 @@
         }
       ],
       "longDescription": {
-        "intro": "In 2024 my partner in crime and I created a website for my friend and artist Helene Volle.",
+        "intro": "This website is a portfolio page created by my partner in crime and I for my friend and artist Helene Volle.",
         "motivation": "My friend was in 2024 to apply to a master in a crossfield between art and biology in Italy. She started creating a website using a drag-and-drop system for a webhosted portfolio where she could display her art. While the design was good it was not how she visioned it, and in an visit she asked if I knew how to use drag-and-drop systems. I asked if my partner and I could code her website instead, and she agreed.",
         "process": "This application had a timeframe, as Helene needed it finished in order to apply to the collage. This made us decide to use vanilla code as I was more familiar with this, not having learned react yet. \n The page contains ...",
         "futureAdditions": [
@@ -37,12 +37,12 @@
       }
     },
 
-    {
+    "letthemcook": {
       "title": "LetThemCook",
       "github": "https://github.com/bookdragonish/letthemcook",
       "hosted": "http://it2810-02.idi.ntnu.no/project2/",
       "image": [
-        "https://private-user-images.githubusercontent.com/70192385/526524275-7ccc946a-ec9e-4d6f-bac8-1cbb3f8be126.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjU3OTgwMTQsIm5iZiI6MTc2NTc5NzcxNCwicGF0aCI6Ii83MDE5MjM4NS81MjY1MjQyNzUtN2NjYzk0NmEtZWM5ZS00ZDZmLWJhYzgtMWNiYjNmOGJlMTI2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEyMTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMjE1VDExMjE1NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWJkNGI1YjkxYTllNDBkOTVlODNhZmU4ZjhjNDQyMTAyYTkyNDFkY2Y4MmFlZjYzZjYzYzBjZjU0OGU0YjIxNzQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.o1aP-zWcCiIfR_CQi3F1cWEBWHEFCAANTnuAiEp2aAc"
+        "https://private-user-images.githubusercontent.com/70192385/526524275-7ccc946a-ec9e-4d6f-bac8-1cbb3f8be126.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg2NTY4MjMsIm5iZiI6MTc2ODY1NjUyMywicGF0aCI6Ii83MDE5MjM4NS81MjY1MjQyNzUtN2NjYzk0NmEtZWM5ZS00ZDZmLWJhYzgtMWNiYjNmOGJlMTI2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTE3VDEzMjg0M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTAzZjNjNTcwODg3NzI5YTgyY2I0MDMwOTUxMWQyZWY0NzlhZDVkYTQ0ZWZiYmRkMTRmOGZkNmYxZmUwZGNhYzAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.L_e2wjli02rrt2CEvElAPnKOs7pYHe9bT5m-U_NAGfI"
       ],
       "shortDescription": "School project using React and MongoDB",
       "startDate": "2023-09-01",
@@ -73,27 +73,7 @@
       }
     },
 
-    {
-      "title": "Shoppinglist",
-      "github": "https://github.com/bookdragonish/shoppinglist",
-      "hosted": "",
-      "image": [
-        "https://private-user-images.githubusercontent.com/70192385/526532905-0f84c642-217e-4be2-b4d9-9bfd56091336.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjU3OTg2MjEsIm5iZiI6MTc2NTc5ODMyMSwicGF0aCI6Ii83MDE5MjM4NS81MjY1MzI5MDUtMGY4NGM2NDItMjE3ZS00YmUyLWI0ZDktOWJmZDU2MDkxMzM2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEyMTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMjE1VDExMzIwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRlMWQxZTA4MjQ1YjQ4N2FlNzA0MmRlMDZhYTIyMzdmNDE0YTAwOWIwNDk3NjYwNzU4NGYxOGRmMTA5M2U3OTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.K6arBrd9GYoVHaAtdLJl9kBJ0Bm1nAWFEHym605Pv9M"
-      ],
-      "shortDescription": "A way to avoid buying too much milk",
-      "startDate": "2025-10-28",
-      "endDate": "",
-      "collaborators": [],
-      "longDescription": {
-        "intro": "This is supposed to be a regular shopping list where multiple users can sync their needs together so that it is easier to shop and not get multiple items of the same product.",
-        "motivation": "My partner and I have this shoppinglist on our counter that contains what we need. After we returned home one day, we found we both had been to the store without talking to the other and bought Milk. My partner is Lactose intolerant, so we get different Milk, and ended up having 4 * 1.75L Milk. This was simply too much milk, and it gave me the idea to create a synched shopping list for us. Well I know others have made this before...but what is the fun in using other peoples work?",
-        "process": "This idea was born on a workshop event that I attended created by Bekk",
-        "futureAdditions": ["Mobile version", "database sync"],
-        "technologyHighlights": ["React"],
-        "highlights": ["Very cool 1", "Yess"]
-      }
-    },
-    {
+    "diagnosefellen": {
       "title": "Diagnosefellen",
       "github": "https://github.com/bookdragonish/diagnosefellen/",
       "hosted": "",
@@ -117,6 +97,26 @@
         "technologyHighlights": ["React", "Vite", "CSS", "Firebase", "TS"],
         "highlights": ["Real project with real client"]
       }
+    },
+    "shoppinglist": {
+      "title": "Shoppinglist",
+      "github": "https://github.com/bookdragonish/shoppinglist",
+      "hosted": "",
+      "image": [
+        "https://private-user-images.githubusercontent.com/70192385/526532905-0f84c642-217e-4be2-b4d9-9bfd56091336.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjU3OTg2MjEsIm5iZiI6MTc2NTc5ODMyMSwicGF0aCI6Ii83MDE5MjM4NS81MjY1MzI5MDUtMGY4NGM2NDItMjE3ZS00YmUyLWI0ZDktOWJmZDU2MDkxMzM2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEyMTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMjE1VDExMzIwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRlMWQxZTA4MjQ1YjQ4N2FlNzA0MmRlMDZhYTIyMzdmNDE0YTAwOWIwNDk3NjYwNzU4NGYxOGRmMTA5M2U3OTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.K6arBrd9GYoVHaAtdLJl9kBJ0Bm1nAWFEHym605Pv9M"
+      ],
+      "shortDescription": "A way to avoid buying too much milk",
+      "startDate": "2025-10-28",
+      "endDate": "",
+      "collaborators": [],
+      "longDescription": {
+        "intro": "This is supposed to be a regular shopping list where multiple users can sync their needs together so that it is easier to shop and not get multiple items of the same product.",
+        "motivation": "My partner and I have this shoppinglist on our counter that contains what we need. After we returned home one day, we found we both had been to the store without talking to the other and bought Milk. My partner is Lactose intolerant, so we get different Milk, and ended up having 4 * 1.75L Milk. This was simply too much milk, and it gave me the idea to create a synched shopping list for us. Well I know others have made this before...but what is the fun in using other peoples work?",
+        "process": "This idea was born on a workshop event that I attended created by Bekk",
+        "futureAdditions": ["Mobile version", "database sync"],
+        "technologyHighlights": ["React"],
+        "highlights": ["Very cool 1", "Yess"]
+      }
     }
-  ]
+  }
 }

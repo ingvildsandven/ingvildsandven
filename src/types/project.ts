@@ -10,6 +10,7 @@ export interface LongDescription {
   process: string;
   futureAdditions: string[];
   technologyHighlights: string[];
+  highlights: string[];
 }
 
 export interface Project {
