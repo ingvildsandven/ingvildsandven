@@ -1,12 +1,17 @@
 import type { Skill } from "../../types/skills";
-import style from "./SkillButton.module.css"
+import style from "./SkillButton.module.css";
 
-
-function SkillButton(skill: Skill){
-    const alt = "logo of" + skill.skill
-    return(
-        <a href={skill.link} className={style.button} target="_blank">
-            <img src={skill.logo} alt={alt} />
-        </a>
-    )
-} export default SkillButton;
+function SkillButton(skill: Skill) {
+  const alt = "logo of " + skill.skill;
+  return (
+    <a
+      href={skill.link}
+      className={style.button}
+      target="_blank"
+      rel="noopener noreffer"
+    >
+      <img src={skill.logo} alt={alt} />
+    </a>
+  );
+}
+export default SkillButton;

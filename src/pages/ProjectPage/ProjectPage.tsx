@@ -52,64 +52,77 @@ function ProjectPage() {
       <Link to="/" className={style.link}>
         Back
       </Link>
-
-      <h1>{projectData.title}</h1>
       <section className={style.links}>
-        <a href={projectData.hosted} rel="noopener noreffer" target="_blank">
-          Hosted Link
-        </a>
+        <h1>{projectData.title}</h1>
+        {projectData.hosted ? (
+          <SkillButton
+            skill={"hosted"}
+            logo={"/src/assets/icons/linkedin.svg"}
+            link={projectData.hosted}
+          />
+        ) : (
+          ""
+        )}
+        <SkillButton
+          skill={"GitHub"}
+          logo={"/src/assets/icons/github.svg"}
+          link={projectData.github}
+        />{" "}
+      </section>
 
-        <a href={projectData.github} rel="noopener noreffer" target="_blank">
-          Github Link
-        </a>
-
+      <div className={style.section_container}>
         <img src={projectData.image[0]} className={style.image}></img>
-      </section>
 
-      <h2>About</h2>
-      <section className={style.overview}>
-        <article className={style.technology_article}>
-          <h3>Technology</h3>
-          <ul>
-            {projectData.longDescription.technologyHighlights.map((tech) => {
-              return (<li key={tech}>{tech}</li>);
-            })}
-          </ul>
-        </article>
-
-        <article className={style.highlights_article}>
-          <h3>Highlights</h3>
-          <ul>
-            {projectData.longDescription.highlights.map((high) => {
-              return <li key={high}>{high}</li>;
-            })}
-          </ul>
-        </article>
-
-        <article className={style.collaborators_article}>
-          <h3>Collaborators</h3>
-          <ul>
-            {projectData.collaborators.map((person) => {
-              return (
-                <article>
-                  <h4>{person.name}</h4>
+        <h2 className={style.display_none}>About</h2>
+        <section className={style.overview}>
+          <article className={style.technology_article}>
+            <h3>Technology</h3>
+            <ul>
+              {projectData.longDescription.technologyHighlights.map((tech) => {
+                return (
                   <SkillButton
-                    skill={"GitHub"}
-                    logo={"/src/assets/icons/github.svg"}
-                    link={person.github}
+                    skill={tech.skill}
+                    logo={tech.logo}
+                    link={tech.link}
                   />
-                  <SkillButton
-                    skill={"Mail"}
-                    logo={"/src/assets/icons/mail.svg"}
-                    link={"mailto:" + person.email}
-                  />
-                </article>
-              );
-            })}
-          </ul>
-        </article>
-      </section>
-
+                );
+              })}
+            </ul>
+          </article>
+          <article className={style.highlights_article}>
+            <h3>Highlights</h3>
+            <ul>
+              {projectData.longDescription.highlights.map((high) => {
+                return <li key={high}>{high}</li>;
+              })}
+            </ul>
+          </article>
+          {projectData.collaborators[0] ? (
+            <article className={style.collaborators_article}>
+              <h3>Collaborators</h3>
+              {projectData.collaborators.map((person) => {
+                return (
+                  <article>
+                    <h4>{person.name}</h4>
+                    <SkillButton
+                      skill={"GitHub"}
+                      logo={"/src/assets/icons/github.svg"}
+                      link={person.github}
+                    />
+                    <SkillButton
+                      skill={"Mail"}
+                      logo={"/src/assets/icons/mail.svg"}
+                      link={"mailto:" + person.email}
+                    />
+                  </article>
+                );
+              })}
+            </article>
+          ) : (
+            ""
+          )}
+        </section>
+      </div>
       <h2>Description</h2>
       <section className={style.description}>
         <p>Start date: {projectData.startDate}</p>
@@ -126,6 +139,8 @@ function ProjectPage() {
             return <li key={add}>{add}</li>;
           })}
         </ul>
+
+        <h2>More Images</h2>
       </section>
     </main>
   );

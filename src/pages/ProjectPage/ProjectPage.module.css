@@ -6,8 +6,37 @@
     width: 100%;
 }
 
+.section_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .overview{
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    
+}
+
+.display_none{
+    width: 98vw;
+    display: none;
+}
+
+@media(max-width:800px){
+    .section_container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .image{
+        grid-column: span 3;
+    }
+}
+
+@media(max-width:600px){
+    .section_container{
+        flex-direction: column;
+    }
+
+    .overview{
+        flex-direction: row;
+    }
 }

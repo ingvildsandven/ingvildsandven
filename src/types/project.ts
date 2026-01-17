@@ -1,3 +1,5 @@
+import type { Skill } from "./skills";
+
 export interface Collaborator {
   name: string;
   email: string;
@@ -9,7 +11,7 @@ export interface LongDescription {
   motivation: string;
   process: string;
   futureAdditions: string[];
-  technologyHighlights: string[];
+  technologyHighlights: Skill[];
   highlights: string[];
 }
 

@@ -27,7 +27,28 @@
           "Kanban templates",
           "multi-tenant support."
         ],
-        "technologyHighlights": ["HTML", "CSS", "JS", "Firebase"],
+        "technologyHighlights": [
+          {
+            "skill": "HTML5",
+            "logo": "/src/assets/icons/html5.svg",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+          },
+          {
+            "skill": "CSS3",
+            "logo": "/src/assets/icons/css3.svg",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+          },
+          {
+            "skill": "Javascript",
+            "logo": "/src/assets/icons/javascript.svg",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+          },
+          {
+            "skill": "Firebase",
+            "logo": "/src/assets/icons/Firebase.svg",
+            "link": "https://firebase.google.com/"
+          }
+        ],
         "highlights": [
           "Real project",
           "Use of firebase",
@@ -64,7 +85,43 @@
           "Have fallback data while the backend is not hosted",
           "Add features"
         ],
-        "technologyHighlights": ["React", "Vite", "MongoDB", "TS", "Redis"],
+        "technologyHighlights": [
+          {
+            "skill": "React",
+            "logo": "/src/assets/icons/react.svg",
+            "link": "https://react.dev/"
+          },
+          {
+            "skill": "MongoDB",
+            "logo": "/src/assets/icons/MongoDB.svg",
+            "link": "https://www.mongodb.com/"
+          },
+          {
+            "skill": "Typescript",
+            "logo": "/src/assets/icons/typescript.svg",
+            "link": "https://www.typescriptlang.org/"
+          },
+          {
+            "skill": "Redux",
+            "logo": "/src/assets/icons/redux.svg",
+            "link": "https://redux.js.org/"
+          },
+          {
+            "skill": "Redis",
+            "logo": "/src/assets/icons/redis.svg",
+            "link": "https://redis.io/"
+          },
+          {
+            "skill": "Playwright",
+            "logo": "/src/assets/icons/playwright.svg",
+            "link": "https://playwright.dev/"
+          },
+          {
+            "skill": "Vitest",
+            "logo": "/src/assets/icons/vite.svg",
+            "link": "https://vitest.dev/"
+          }
+        ],
         "highlights": [
           "Backend implemented",
           "Caching using redis is implemented",
@@ -94,7 +151,33 @@
           "Booking form",
           "Booking security with focus on security from hate mail"
         ],
-        "technologyHighlights": ["React", "Vite", "CSS", "Firebase", "TS"],
+        "technologyHighlights": [
+          {
+            "skill": "React",
+            "logo": "/src/assets/icons/react.svg",
+            "link": "https://react.dev/"
+          },
+          {
+            "skill": "Typescript",
+            "logo": "/src/assets/icons/typescript.svg",
+            "link": "https://www.typescriptlang.org/"
+          },
+          {
+            "skill": "Vitest",
+            "logo": "/src/assets/icons/vite.svg",
+            "link": "https://vitest.dev/"
+          },
+          {
+            "skill": "CSS3",
+            "logo": "/src/assets/icons/css3.svg",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+          },
+          {
+            "skill": "Firebase",
+            "logo": "/src/assets/icons/Firebase.svg",
+            "link": "https://firebase.google.com/"
+          }
+        ],
         "highlights": ["Real project with real client"]
       }
     },
@@ -114,7 +197,13 @@
         "motivation": "My partner and I have this shoppinglist on our counter that contains what we need. After we returned home one day, we found we both had been to the store without talking to the other and bought Milk. My partner is Lactose intolerant, so we get different Milk, and ended up having 4 * 1.75L Milk. This was simply too much milk, and it gave me the idea to create a synched shopping list for us. Well I know others have made this before...but what is the fun in using other peoples work?",
         "process": "This idea was born on a workshop event that I attended created by Bekk",
         "futureAdditions": ["Mobile version", "database sync"],
-        "technologyHighlights": ["React"],
+        "technologyHighlights": [
+          {
+            "skill": "React",
+            "logo": "/src/assets/icons/react.svg",
+            "link": "https://react.dev/"
+          }
+        ],
         "highlights": ["Very cool 1", "Yess"]
       }
     }
