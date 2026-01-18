@@ -21,9 +21,7 @@ function ExperiencePage() {
     images: [{ image: "", span: 0 }],
     description: "",
   });
-  console.log(experience);
 
-  console.log(experience[0].title);
 
   useEffect(() => {
     const urlArray = window.location.href.split("/");

@@ -1,14 +1,6 @@
+import type { ImageGridProps } from "../../types/image";
 import style from "./ImageGrid.module.css";
 
-type ImageGridProps = {
-  images: imagesArray[];
-  folderTitle: string;
-};
-
-interface imagesArray {
-    image: string,
-    span: number,
-}
 
 function ImageGrid({ images, folderTitle }: ImageGridProps) {
   return (

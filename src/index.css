@@ -1,16 +1,26 @@
-html{
-    min-height: 100vh;
+html {
+  min-height: 100vh;
 }
 
 Link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-a{
-    color: var(--font-color);
-    text-decoration: none;
+a {
+  color: var(--font-color);
+  text-decoration: none;
 }
 
-div, section, a, h3{
-    transition: background-color 0.3s ease-out, color 0.7s ease-in;
+p {
+  white-space: pre-wrap;
+  line-height: 1.8;
+}
+
+div,
+section,
+a,
+h3 {
+  transition:
+    background-color 0.3s ease-out,
+    color 0.7s ease-in;
 }

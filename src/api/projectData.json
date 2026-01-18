@@ -4,9 +4,7 @@
       "title": "Helene Volle Portfolio",
       "github": "https://github.com/ESPR07/helene-volle-portfolio",
       "hosted": "https://helenevolle.com/",
-      "image": [
-        "https://private-user-images.githubusercontent.com/111272036/524987479-fb5f7736-f91a-40be-b217-363f0d67c13f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg2NTY3OTAsIm5iZiI6MTc2ODY1NjQ5MCwicGF0aCI6Ii8xMTEyNzIwMzYvNTI0OTg3NDc5LWZiNWY3NzM2LWY5MWEtNDBiZS1iMjE3LTM2M2YwZDY3YzEzZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMTE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDExN1QxMzI4MTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xNDk4YWU2NjU1YzczYjZmMmY1ODVlYmRjYmFjOWU2OTRkM2I2NDFmYzVhN2UzZWU3NGRkZmYyMjIwYTE1ZDE3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ebZ98LLFycM_5KdtRu74akHQ_DNW8lArP5qSrsjF9CU"
-      ],
+      "image": "https://private-user-images.githubusercontent.com/111272036/524987479-fb5f7736-f91a-40be-b217-363f0d67c13f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg2NTY3OTAsIm5iZiI6MTc2ODY1NjQ5MCwicGF0aCI6Ii8xMTEyNzIwMzYvNTI0OTg3NDc5LWZiNWY3NzM2LWY5MWEtNDBiZS1iMjE3LTM2M2YwZDY3YzEzZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMTE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDExN1QxMzI4MTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xNDk4YWU2NjU1YzczYjZmMmY1ODVlYmRjYmFjOWU2OTRkM2I2NDFmYzVhN2UzZWU3NGRkZmYyMjIwYTE1ZDE3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ebZ98LLFycM_5KdtRu74akHQ_DNW8lArP5qSrsjF9CU",
       "shortDescription": "Portfolio for an artist",
       "startDate": "26-06-2024",
       "endDate": "14-07-2024",
@@ -19,13 +17,10 @@
       ],
       "longDescription": {
         "intro": "This website is a portfolio page created by my partner in crime and I for my friend and artist Helene Volle.",
-        "motivation": "My friend was in 2024 to apply to a master in a crossfield between art and biology in Italy. She started creating a website using a drag-and-drop system for a webhosted portfolio where she could display her art. While the design was good it was not how she visioned it, and in an visit she asked if I knew how to use drag-and-drop systems. I asked if my partner and I could code her website instead, and she agreed.",
-        "process": "This application had a timeframe, as Helene needed it finished in order to apply to the collage. This made us decide to use vanilla code as I was more familiar with this, not having learned react yet. \n The page contains ...",
+        "motivation": "My friend was in 2024 to apply to a master in a crossfield between art and biology in Italy. She started creating a website portfolio using a drag-and-drop system where she could display her art. While the design was good it was not how she visioned it, and during a visit she asked if I had knowledge on this field. I asked if my partner and I could code her website instead, and she agreed.",
+        "process": "This application had a timeframe, as Helene needed it finished in order to apply to the collage. This made us decide to use vanilla code as I was more familiar with this, not having learned react yet. In total we had a couple of weeks during summer vacation to finish the entire project. The minimum requirement from Helene was that she needed an overview of all her projects and an about her page. For each of her projects she needed to be able to display images of her art in a grid system. \n\n We prioritized the grid system for the images, as this was the main feature for the art page. Helene had created a color scheme, wireframe and a logo herself and voiced all of her thoughts about the project, and in the end it became as she envisioned. In the end we also added: (1) Posibility to see each image on a large screen when clicking on it (2) Navigationbuttons between these (3) Separation between smaller and larger projects (4) Saving files to firebase.\n\n The last addition to the page was the admin page. Due to security reasons this is not open to public, however I added screenshots from this bellow.",
         "futureAdditions": [
-          "Slack integration",
-          "AI scheduling",
-          "Kanban templates",
-          "multi-tenant support."
+          "Extended admin functionality: ability to change about-info"
         ],
         "technologyHighlights": [
           {
@@ -54,6 +49,20 @@
           "Use of firebase",
           "Created admin site",
           "Collaboration"
+        ],
+        "image_folder": "public/helenevolle",
+        "images": [
+          {
+            "image": "helene_adimin_main_page.webp",
+            "span": 3
+          },
+          {
+            "image": "helene_admin_changes.webp",
+            "span": 3
+          },
+          { "image": "helene_admin_login.webp", "span": 2 },
+          { "image": "helene_navigation.webp", "span": 2 },
+          { "image": "helene_home_mobile.webp", "span": 2 }
         ]
       }
     },
@@ -62,9 +71,7 @@
       "title": "LetThemCook",
       "github": "https://github.com/bookdragonish/letthemcook",
       "hosted": "http://it2810-02.idi.ntnu.no/project2/",
-      "image": [
-        "https://private-user-images.githubusercontent.com/70192385/526524275-7ccc946a-ec9e-4d6f-bac8-1cbb3f8be126.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg2NTY4MjMsIm5iZiI6MTc2ODY1NjUyMywicGF0aCI6Ii83MDE5MjM4NS81MjY1MjQyNzUtN2NjYzk0NmEtZWM5ZS00ZDZmLWJhYzgtMWNiYjNmOGJlMTI2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTE3VDEzMjg0M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTAzZjNjNTcwODg3NzI5YTgyY2I0MDMwOTUxMWQyZWY0NzlhZDVkYTQ0ZWZiYmRkMTRmOGZkNmYxZmUwZGNhYzAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.L_e2wjli02rrt2CEvElAPnKOs7pYHe9bT5m-U_NAGfI"
-      ],
+      "image": "https://private-user-images.githubusercontent.com/70192385/526524275-7ccc946a-ec9e-4d6f-bac8-1cbb3f8be126.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg2NTY4MjMsIm5iZiI6MTc2ODY1NjUyMywicGF0aCI6Ii83MDE5MjM4NS81MjY1MjQyNzUtN2NjYzk0NmEtZWM5ZS00ZDZmLWJhYzgtMWNiYjNmOGJlMTI2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTE3VDEzMjg0M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTAzZjNjNTcwODg3NzI5YTgyY2I0MDMwOTUxMWQyZWY0NzlhZDVkYTQ0ZWZiYmRkMTRmOGZkNmYxZmUwZGNhYzAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.L_e2wjli02rrt2CEvElAPnKOs7pYHe9bT5m-U_NAGfI",
       "shortDescription": "School project using React and MongoDB",
       "startDate": "2023-09-01",
       "endDate": "2024-01-20",
@@ -126,7 +133,9 @@
           "Backend implemented",
           "Caching using redis is implemented",
           "Testing"
-        ]
+        ],
+        "image_folder": "public/helenevolle/",
+        "images": []
       }
     },
 
@@ -134,9 +143,7 @@
       "title": "Diagnosefellen",
       "github": "https://github.com/bookdragonish/diagnosefellen/",
       "hosted": "",
-      "image": [
-        "https://github.com/bookdragonish/diagnosefellen/raw/dev/src/assets/images/book/14.png"
-      ],
+      "image": "https://github.com/bookdragonish/diagnosefellen/raw/dev/src/assets/images/book/14.png",
       "shortDescription": "Site for Henriette Sandven",
       "startDate": "2025-12-13",
       "endDate": "",
@@ -178,16 +185,16 @@
             "link": "https://firebase.google.com/"
           }
         ],
-        "highlights": ["Real project with real client"]
+        "highlights": ["Real project with real client"],
+        "image_folder": "public/helenevolle/",
+        "images": []
       }
     },
     "shoppinglist": {
       "title": "Shoppinglist",
       "github": "https://github.com/bookdragonish/shoppinglist",
       "hosted": "",
-      "image": [
-        "https://private-user-images.githubusercontent.com/70192385/526532905-0f84c642-217e-4be2-b4d9-9bfd56091336.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjU3OTg2MjEsIm5iZiI6MTc2NTc5ODMyMSwicGF0aCI6Ii83MDE5MjM4NS81MjY1MzI5MDUtMGY4NGM2NDItMjE3ZS00YmUyLWI0ZDktOWJmZDU2MDkxMzM2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEyMTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMjE1VDExMzIwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRlMWQxZTA4MjQ1YjQ4N2FlNzA0MmRlMDZhYTIyMzdmNDE0YTAwOWIwNDk3NjYwNzU4NGYxOGRmMTA5M2U3OTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.K6arBrd9GYoVHaAtdLJl9kBJ0Bm1nAWFEHym605Pv9M"
-      ],
+      "image": "https://private-user-images.githubusercontent.com/70192385/526532905-0f84c642-217e-4be2-b4d9-9bfd56091336.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjU3OTg2MjEsIm5iZiI6MTc2NTc5ODMyMSwicGF0aCI6Ii83MDE5MjM4NS81MjY1MzI5MDUtMGY4NGM2NDItMjE3ZS00YmUyLWI0ZDktOWJmZDU2MDkxMzM2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEyMTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMjE1VDExMzIwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRlMWQxZTA4MjQ1YjQ4N2FlNzA0MmRlMDZhYTIyMzdmNDE0YTAwOWIwNDk3NjYwNzU4NGYxOGRmMTA5M2U3OTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.K6arBrd9GYoVHaAtdLJl9kBJ0Bm1nAWFEHym605Pv9M",
       "shortDescription": "A way to avoid buying too much milk",
       "startDate": "2025-10-28",
       "endDate": "",
@@ -204,7 +211,9 @@
             "link": "https://react.dev/"
           }
         ],
-        "highlights": ["Very cool 1", "Yess"]
+        "highlights": ["Very cool 1", "Yess"],
+        "image_folder": "public/helenevolle/",
+        "images": []
       }
     }
   }

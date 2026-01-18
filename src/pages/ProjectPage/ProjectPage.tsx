@@ -4,13 +4,14 @@ import data from "../../api/projectData.json";
 import { useEffect, useState } from "react";
 import type { Project } from "../../types/project";
 import SkillButton from "../../components/SkillButton/SkillButton";
+import ImageGrid from "../../components/ImageGrid/ImageGrid";
 
 function ProjectPage() {
   const [projectData, setProjectData] = useState<Project>({
     title: "",
     github: "",
     hosted: "",
-    image: [],
+    image: "",
     shortDescription: "",
     startDate: "",
     endDate: "",
@@ -22,6 +23,8 @@ function ProjectPage() {
       futureAdditions: [],
       technologyHighlights: [],
       highlights: [],
+      images: [],
+      image_folder: "" 
     },
   });
   const { title } = useParams();
@@ -33,8 +36,6 @@ function ProjectPage() {
         data?.projects?.[title.toLowerCase() as keyof typeof data.projects],
       );
   }, [title, data]);
-
-  console.log(projectData);
 
   if (!projectData) {
     return (
@@ -72,7 +73,7 @@ function ProjectPage() {
       </section>
 
       <div className={style.section_container}>
-        <img src={projectData.image[0]} className={style.image}></img>
+        <img src={projectData.image} className={style.image}></img>
 
         <h2 className={style.display_none}>About</h2>
         <section className={style.overview}>
@@ -126,7 +127,11 @@ function ProjectPage() {
       </div>
       <h2>Description</h2>
       <section className={style.description}>
-        <p> {projectData.startDate} {projectData.endDate ? ("- " + projectData.endDate): ("")}</p>
+        <p>
+          {" "}
+          {projectData.startDate}{" "}
+          {projectData.endDate ? "- " + projectData.endDate : ""}
+        </p>
         <p>{projectData.longDescription.intro}</p>
         <h3 className={style.h3}>Motivation</h3>
         <p>{projectData.longDescription.motivation}</p>
@@ -141,6 +146,7 @@ function ProjectPage() {
         </ul>
 
         <h2>More Images</h2>
+        <ImageGrid images={projectData.longDescription.images} folderTitle={projectData.longDescription.image_folder}/>
       </section>
     </main>
   );

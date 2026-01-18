@@ -1,3 +1,4 @@
+import type { imagesArray } from "./image";
 import type { Skill } from "./skills";
 
 export interface Collaborator {
@@ -13,13 +14,15 @@ export interface LongDescription {
   futureAdditions: string[];
   technologyHighlights: Skill[];
   highlights: string[];
+  images: imagesArray[];
+  image_folder: string;
 }
 
 export interface Project {
   title: string;
   github: string;
   hosted: string;
-  image: string[];
+  image: string;
   shortDescription: string;
   startDate: string;
   endDate: string;

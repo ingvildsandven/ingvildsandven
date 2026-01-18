@@ -13,7 +13,7 @@ function ConstructionCard({
   return (
     <article className={style.card_container}>
       <Link to={"project/" + url} className={style.card}>
-        <img src={image[0]} alt={title} className={style.bkg_img}/>
+        <img src={image} alt={title} className={style.bkg_img}/>
         <div className={style.fade_container}>
           <h2>{title}</h2>
           <p>{shortDescription}</p>

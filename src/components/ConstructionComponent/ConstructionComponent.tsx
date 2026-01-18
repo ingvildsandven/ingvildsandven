@@ -5,7 +5,6 @@ import style from "./ConstructionComponent.module.css";
 
 function ConstructionCompontent() {
   const data = projectData;
-  console.log(projectData);
 
   return (
     <>

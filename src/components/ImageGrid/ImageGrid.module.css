@@ -34,7 +34,7 @@
   grid-column: span 6;
 }
 
-@media(max-width:380px){
+@media(max-width:470px){
   .span1, .span2, .span3, .span4, .span5, .span6 {
       grid-column: span 6;
   }
