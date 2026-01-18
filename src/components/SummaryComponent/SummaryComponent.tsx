@@ -20,8 +20,8 @@ function SummaryComponent() {
         <div className={style.icons_container}>
          
           <div className={style.design_container}> 
-            <h3>Design</h3>
-            {skills.skills.design.map((skill: Skill) => (
+            <h3>Planning</h3>
+            {skills.skills.planning.map((skill: Skill) => (
               <SkillButton
                 skill={skill.skill}
                 logo={skill.logo}

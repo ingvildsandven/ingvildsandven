@@ -19,7 +19,7 @@ p, ul {
 div,
 section,
 a,
-h3 {
+h3, h2 {
   transition:
     background-color 0.3s ease-out,
     color 0.7s ease-in;

@@ -1,0 +1,26 @@
+    "shoppinglist": {
+      "title": "Shoppinglist",
+      "github": "https://github.com/bookdragonish/shoppinglist",
+      "hosted": "",
+      "image": "https://private-user-images.githubusercontent.com/70192385/526532905-0f84c642-217e-4be2-b4d9-9bfd56091336.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjU3OTg2MjEsIm5iZiI6MTc2NTc5ODMyMSwicGF0aCI6Ii83MDE5MjM4NS81MjY1MzI5MDUtMGY4NGM2NDItMjE3ZS00YmUyLWI0ZDktOWJmZDU2MDkxMzM2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEyMTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMjE1VDExMzIwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRlMWQxZTA4MjQ1YjQ4N2FlNzA0MmRlMDZhYTIyMzdmNDE0YTAwOWIwNDk3NjYwNzU4NGYxOGRmMTA5M2U3OTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.K6arBrd9GYoVHaAtdLJl9kBJ0Bm1nAWFEHym605Pv9M",
+      "shortDescription": "A way to avoid buying too much milk",
+      "startDate": "2025-10-28",
+      "endDate": "",
+      "collaborators": [],
+      "longDescription": {
+        "intro": "This is supposed to be a regular shopping list where multiple users can sync their needs together so that it is easier to shop and not get multiple items of the same product.",
+        "motivation": "My partner and I have this shoppinglist on our counter that contains what we need. After we returned home one day, we found we both had been to the store without talking to the other and bought Milk. My partner is Lactose intolerant, so we get different Milk, and ended up having 4 * 1.75L Milk. This was simply too much milk, and it gave me the idea to create a synched shopping list for us. Well I know others have made this before...but what is the fun in using other peoples work?",
+        "process": "This idea was born on a workshop event that I attended created by Bekk",
+        "futureAdditions": ["Mobile version", "database sync"],
+        "technologyHighlights": [
+          {
+            "skill": "React",
+            "logo": "/src/assets/icons/react.svg",
+            "link": "https://react.dev/"
+          }
+        ],
+        "highlights": ["Very cool 1", "Yess"],
+        "imagesFolder": "public/helenevolle/",
+        "images": []
+      }
+    }

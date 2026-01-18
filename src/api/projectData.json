@@ -73,8 +73,8 @@
       "hosted": "http://it2810-02.idi.ntnu.no/project2/",
       "image": "https://private-user-images.githubusercontent.com/70192385/526524275-7ccc946a-ec9e-4d6f-bac8-1cbb3f8be126.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg2NTY4MjMsIm5iZiI6MTc2ODY1NjUyMywicGF0aCI6Ii83MDE5MjM4NS81MjY1MjQyNzUtN2NjYzk0NmEtZWM5ZS00ZDZmLWJhYzgtMWNiYjNmOGJlMTI2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTE3VDEzMjg0M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTAzZjNjNTcwODg3NzI5YTgyY2I0MDMwOTUxMWQyZWY0NzlhZDVkYTQ0ZWZiYmRkMTRmOGZkNmYxZmUwZGNhYzAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.L_e2wjli02rrt2CEvElAPnKOs7pYHe9bT5m-U_NAGfI",
       "shortDescription": "School project using React and MongoDB",
-      "startDate": "2023-09-01",
-      "endDate": "2024-01-20",
+      "startDate": "01-09-2023",
+      "endDate": "20-01-2024",
       "collaborators": [
         {
           "name": "Gina Giske",
@@ -145,18 +145,19 @@
       "hosted": "",
       "image": "https://github.com/bookdragonish/diagnosefellen/raw/dev/src/assets/images/book/14.png",
       "shortDescription": "Site for Henriette Sandven",
-      "startDate": "2025-12-13",
+      "startDate": "13-12-2025",
       "endDate": "",
       "collaborators": [],
       "longDescription": {
-        "intro": "A website for Henriette Sandven and her book Diagnosefellen. The site collects and organizes relevant content—podcasts, lectures, interviews, articles, and other appearances—so it’s easy to find, share, and keep updated. It also includes a booking form to contact Henriette by email for events.",
-        "motivation": "All links and information needs to be collected in a single page. This also will have a booking form that connects to mail. The client does not want an admin site, as she feels technology.",
-        "process": "",
+        "intro": "Henriette Sandven is a specialist in child and adolescent psychiatry, and in 2025 she published the book Diagnosefellen, which discusses how too many children today are being diagnosed and medicated unnecessarily. She has been particularly outspoken in the public ADHD debate, which has received significant attention in Norwegian media. With over 15 years of clinical experience, Henriette has developed a strong professional voice in her field — and, as her name suggests, I am also proud to be her daughter.",
+        "motivation": "Since the publication of her book, Henriette has received numerous requests to participate in podcasts, lectures, interviews, articles, and other public appearances. In connection with these requests, she is often asked to provide written information about the topics she can speak about, her professional perspective, and relevant background material. At the same time, many people are unsure of her stance on certain issues and want an accessible source where her work and contributions are clearly presented. \n\n The motivation behind this project is therefore to develop a dedicated website that gathers and organizes her public content in one place. The site will function as a structured archive of relevant material, such as podcasts, lectures, interviews, articles, and other appearances making it easy to find, share, and keep updated over time. In addition, the website will include a booking/contact form, allowing event organizers and media outlets to reach Henriette directly by email for speaking engagements and collaborations.",
+        "process": "This is still a fresh project, however the domain diagnosefellen.no is bought and the form have the elements they need.",
         "futureAdditions": [
           "Admin site",
           "Mail setup",
           "Booking form",
-          "Booking security with focus on security from hate mail"
+          "Booking security with focus on security from hate mail",
+          "Main page containing links and images"
         ],
         "technologyHighlights": [
           {
@@ -186,34 +187,12 @@
           }
         ],
         "highlights": ["Real project with real client"],
-        "imagesFolder": "public/helenevolle/",
-        "images": []
-      }
-    },
-    "shoppinglist": {
-      "title": "Shoppinglist",
-      "github": "https://github.com/bookdragonish/shoppinglist",
-      "hosted": "",
-      "image": "https://private-user-images.githubusercontent.com/70192385/526532905-0f84c642-217e-4be2-b4d9-9bfd56091336.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjU3OTg2MjEsIm5iZiI6MTc2NTc5ODMyMSwicGF0aCI6Ii83MDE5MjM4NS81MjY1MzI5MDUtMGY4NGM2NDItMjE3ZS00YmUyLWI0ZDktOWJmZDU2MDkxMzM2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEyMTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMjE1VDExMzIwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRlMWQxZTA4MjQ1YjQ4N2FlNzA0MmRlMDZhYTIyMzdmNDE0YTAwOWIwNDk3NjYwNzU4NGYxOGRmMTA5M2U3OTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.K6arBrd9GYoVHaAtdLJl9kBJ0Bm1nAWFEHym605Pv9M",
-      "shortDescription": "A way to avoid buying too much milk",
-      "startDate": "2025-10-28",
-      "endDate": "",
-      "collaborators": [],
-      "longDescription": {
-        "intro": "This is supposed to be a regular shopping list where multiple users can sync their needs together so that it is easier to shop and not get multiple items of the same product.",
-        "motivation": "My partner and I have this shoppinglist on our counter that contains what we need. After we returned home one day, we found we both had been to the store without talking to the other and bought Milk. My partner is Lactose intolerant, so we get different Milk, and ended up having 4 * 1.75L Milk. This was simply too much milk, and it gave me the idea to create a synched shopping list for us. Well I know others have made this before...but what is the fun in using other peoples work?",
-        "process": "This idea was born on a workshop event that I attended created by Bekk",
-        "futureAdditions": ["Mobile version", "database sync"],
-        "technologyHighlights": [
-          {
-            "skill": "React",
-            "logo": "/src/assets/icons/react.svg",
-            "link": "https://react.dev/"
-          }
-        ],
-        "highlights": ["Very cool 1", "Yess"],
-        "imagesFolder": "public/helenevolle/",
-        "images": []
+        "imagesFolder": "public/diagnosefellen",
+        "images": [
+          { "image": "LeiknyHavik-Avstandsbilde.webp", "span": 2 },
+          { "image": "book.webp", "span": 2 },
+          { "image": "LeiknyHavik-Normal.webp", "span": 2 }
+        ]
       }
     }
   }

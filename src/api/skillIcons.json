@@ -1,6 +1,6 @@
 {
   "skills": {
-    "design": [
+    "planning": [
       {
         "skill": "Figma",
         "logo": "/src/assets/icons/figma.svg",
@@ -71,24 +71,9 @@
         "link": "https://redux.js.org/"
       },
       {
-        "skill": "Python",
-        "logo": "/src/assets/icons/python.svg",
-        "link": "https://www.python.org/"
-      },
-      {
-        "skill": "Java JDK",
-        "logo": "/src/assets/icons/java.svg",
-        "link": "https://www.java.com/en/"
-      },
-      {
         "skill": "GraphQL",
         "logo": "/src/assets/icons/GraphQL.svg",
         "link": "https://graphql.org/"
-      },
-      {
-        "skill": "Jupiter",
-        "logo": "/src/assets/icons/Jupyter.svg",
-        "link": "https://jupyter.org/"
       }
     ],
     "backend": [
@@ -126,6 +111,21 @@
         "skill": "Express",
         "logo": "/src/assets/icons/expressjs.webp",
         "link": "https://expressjs.com/"
+      },
+      {
+        "skill": "Jupiter",
+        "logo": "/src/assets/icons/Jupyter.svg",
+        "link": "https://jupyter.org/"
+      },
+      {
+        "skill": "Python",
+        "logo": "/src/assets/icons/python.svg",
+        "link": "https://www.python.org/"
+      },
+      {
+        "skill": "Java JDK",
+        "logo": "/src/assets/icons/java.svg",
+        "link": "https://www.java.com/en/"
       }
     ]
   }

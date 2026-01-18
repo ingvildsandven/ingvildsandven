@@ -54,8 +54,9 @@ function ProjectPage() {
         Back
       </Link>
 
-      <section className={style.header}>
-        <h1>{projectData.title}</h1>
+      <h1>{projectData.title}</h1>
+
+      <section className={style.linking_container}>
         {projectData.hosted ? (
           <SkillButton
             skill={"hosted"}
@@ -125,8 +126,12 @@ function ProjectPage() {
           )}
         </section>
       </div>
-      <h2>Description</h2>
+
       <section className={style.description}>
+        <div className={style.header_container}>
+          <span className={style.line}></span>
+          <h2>Description</h2>
+        </div>
         <p>
           {" "}
           {projectData.startDate}{" "}
@@ -147,7 +152,10 @@ function ProjectPage() {
 
         {projectData.longDescription.imagesFolder ? (
           <>
-            <h2>More Images</h2>
+            <div className={style.header_container}>
+              <span className={style.line}></span>
+              <h2>More Images</h2>
+            </div>
             <ImageGrid
               images={projectData.longDescription.images}
               folderTitle={projectData.longDescription.imagesFolder}
