@@ -41,6 +41,10 @@ main {
   margin: 0 auto;
 }
 
+.description ul, .overview ul{
+  text-align: left;
+}
+
 .display_none {
   display: none;
 }

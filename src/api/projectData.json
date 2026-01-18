@@ -50,7 +50,7 @@
           "Created admin site",
           "Collaboration"
         ],
-        "image_folder": "public/helenevolle",
+        "imagesFolder": "public/helenevolle",
         "images": [
           {
             "image": "helene_adimin_main_page.webp",
@@ -83,14 +83,14 @@
         }
       ],
       "longDescription": {
-        "intro": "This project was one of two projects in the course Webutvikling. The hosted link is hidden for anyone without ntnu vpn.",
-        "motivation": "This site is a Recipe site where the user can ",
-        "process": "In our application the user can find food recipes. The user can select categories and the page will filter the displayed recipes based on this. Additionaly, the user can sort recipes alphabetically ascending or descending. It also has a randomizer button that takes the user to a random recipe, to give the user some inspiration as to what to cook. \n The application also has a search function, that searches based on the user's input in the search field. The search function has its own page, to separate it from other filters and sorting to make it look cleaner and easier to use. Sorting search results alphabetically or filtering based on category would not lead to the best results for the user, as they already get the most relevant data at the top from their search input. This would not be the case anymore after sorting or filtering.",
+        "intro": "This project was one of two projects in the course IT2810 Webutvikling. The hosted link is hidden for anyone without ntnu vpn.",
+        "motivation": "In our application the user can find food recipes. The user can select categories and the page will filter the displayed recipes based on this. Additionaly, the user can sort recipes alphabetically ascending or descending. It also has a randomizer button that takes the user to a random recipe, to give the user some inspiration as to what to cook. \n The application also has a search function, that searches based on the user's input in the search field. The search function has its own page, to separate it from other filters and sorting to make it look cleaner and easier to use. Sorting search results alphabetically or filtering based on category would not lead to the best results for the user, as they already get the most relevant data at the top from their search input. This would not be the case anymore after sorting or filtering.",
+        "process": "This project had approximatly a two month deadline, with four partial deliveries. The first was to finish a minimal vital product, second to have data connected to the page, third to have tests in order and fourth to fix all bugs. We used issues and kanban boards to structurate. \n\n Per now the website is not hosted publically, however this will be done in the future. Until then you can follow the installation guide on github, beware that the installation guide require you to setup mongo DB as this is also hosted on an NTNU server.",
         "futureAdditions": [
-          "Host the project on my own link",
-          "Host backend",
-          "Have fallback data while the backend is not hosted",
-          "Add features"
+          "Host the page on a public accessible domain",
+          "Host the server",
+          "Update the search resolver",
+          "Will possibly add more functionality"
         ],
         "technologyHighlights": [
           {
@@ -132,9 +132,9 @@
         "highlights": [
           "Backend implemented",
           "Caching using redis is implemented",
-          "Testing"
+          "Extensive testing: end to end, component and snapshot tests"
         ],
-        "image_folder": "public/helenevolle/",
+        "imagesFolder": "",
         "images": []
       }
     },
@@ -186,7 +186,7 @@
           }
         ],
         "highlights": ["Real project with real client"],
-        "image_folder": "public/helenevolle/",
+        "imagesFolder": "public/helenevolle/",
         "images": []
       }
     },
@@ -212,7 +212,7 @@
           }
         ],
         "highlights": ["Very cool 1", "Yess"],
-        "image_folder": "public/helenevolle/",
+        "imagesFolder": "public/helenevolle/",
         "images": []
       }
     }

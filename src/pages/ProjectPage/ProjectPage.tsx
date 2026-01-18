@@ -24,7 +24,7 @@ function ProjectPage() {
       technologyHighlights: [],
       highlights: [],
       images: [],
-      image_folder: "" 
+      imagesFolder: "",
     },
   });
   const { title } = useParams();
@@ -145,8 +145,17 @@ function ProjectPage() {
           })}
         </ul>
 
-        <h2>More Images</h2>
-        <ImageGrid images={projectData.longDescription.images} folderTitle={projectData.longDescription.image_folder}/>
+        {projectData.longDescription.imagesFolder ? (
+          <>
+            <h2>More Images</h2>
+            <ImageGrid
+              images={projectData.longDescription.images}
+              folderTitle={projectData.longDescription.imagesFolder}
+            />
+          </>
+        ) : (
+          ""
+        )}
       </section>
     </main>
   );

@@ -11,7 +11,7 @@ a {
   text-decoration: none;
 }
 
-p {
+p, ul {
   white-space: pre-wrap;
   line-height: 1.8;
 }

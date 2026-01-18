@@ -15,7 +15,7 @@ export interface LongDescription {
   technologyHighlights: Skill[];
   highlights: string[];
   images: imagesArray[];
-  image_folder: string;
+  imagesFolder: string;
 }
 
 export interface Project {
