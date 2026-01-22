@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import type { Project } from "../../types/project";
 import SkillButton from "../../components/SkillButton/SkillButton";
 import ImageGrid from "../../components/ImageGrid/ImageGrid";
+import ToTopButton from "../../components/ToTopButton/ToTopButton";
 
 function ProjectPage() {
   const [projectData, setProjectData] = useState<Project>({
@@ -54,13 +55,15 @@ function ProjectPage() {
         Back
       </Link>
 
+      <ToTopButton />
+
       <h1>{projectData.title}</h1>
 
       <section className={style.linking_container}>
         {projectData.hosted ? (
           <SkillButton
             skill={"hosted"}
-            logo={"/src/assets/icons/link.svg"}
+            logo={"/icons/link.svg"}
             link={projectData.hosted}
           />
         ) : (
@@ -68,7 +71,7 @@ function ProjectPage() {
         )}
         <SkillButton
           skill={"GitHub"}
-          logo={"/src/assets/icons/github.svg"}
+          logo={"/icons/github.svg"}
           link={projectData.github}
         />{" "}
       </section>
@@ -109,12 +112,12 @@ function ProjectPage() {
                     <h4>{person.name}</h4>
                     <SkillButton
                       skill={"GitHub"}
-                      logo={"/src/assets/icons/github.svg"}
+                      logo={"/icons/github.svg"}
                       link={person.github}
                     />
                     <SkillButton
                       skill={"Mail"}
-                      logo={"/src/assets/icons/mail.svg"}
+                      logo={"/icons/mail.svg"}
                       link={"mailto:" + person.email}
                     />
                   </article>

@@ -3,6 +3,7 @@ import experience from "../../api/experienceData.json";
 import { Link } from "react-router";
 import ImageGrid from "../../components/ImageGrid/ImageGrid";
 import style from "./ExperiencePage.module.css";
+import ToTopButton from "../../components/ToTopButton/ToTopButton";
 
 interface imagesArray {
   image: string;
@@ -22,7 +23,6 @@ function ExperiencePage() {
     description: "",
   });
 
-
   useEffect(() => {
     const urlArray = window.location.href.split("/");
     const title = urlArray[urlArray.length - 1];
@@ -38,7 +38,12 @@ function ExperiencePage() {
 
   return (
     <main className={style.main}>
-      <Link to="/" className={style.link}>Back</Link>
+      <Link to="/" className={style.link}>
+        Back
+      </Link>
+
+      <ToTopButton/>
+
       <section className={style.info_container}>
         <h1>{data.title}</h1>
         <p>{data.description}</p>

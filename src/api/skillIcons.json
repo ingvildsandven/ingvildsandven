@@ -3,128 +3,128 @@
     "planning": [
       {
         "skill": "Figma",
-        "logo": "/src/assets/icons/figma.svg",
+        "logo": "/icons/figma.svg",
         "link": "https://www.figma.com/"
       },
       {
         "skill": "Postman",
-        "logo": "/src/assets/icons/postman.svg",
+        "logo": "/icons/postman.svg",
         "link": "https://www.postman.com/"
       }
     ],
     "testing": [
       {
         "skill": "Jest",
-        "logo": "/src/assets/icons/jest.svg",
+        "logo": "/icons/Jest.svg",
         "link": "https://jestjs.io/"
       },
       {
         "skill": "JUnit5",
-        "logo": "/src/assets/icons/junit.svg",
+        "logo": "/icons/JUnit.svg",
         "link": "https://docs.junit.org/current/overview.html"
       },
       {
         "skill": "Playwright",
-        "logo": "/src/assets/icons/playwright.svg",
+        "logo": "/icons/playwright.svg",
         "link": "https://playwright.dev/"
       },
       {
         "skill": "Vitest",
-        "logo": "/src/assets/icons/vite.svg",
+        "logo": "/icons/vite.svg",
         "link": "https://vitest.dev/"
       }
     ],
     "frontend": [
       {
         "skill": "HTML5",
-        "logo": "/src/assets/icons/html5.svg",
+        "logo": "/icons/html5.svg",
         "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
       },
       {
         "skill": "CSS3",
-        "logo": "/src/assets/icons/css3.svg",
+        "logo": "/icons/css3.svg",
         "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
       },
       {
         "skill": "Javascript",
-        "logo": "/src/assets/icons/javascript.svg",
+        "logo": "/icons/javascript.svg",
         "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
       },
       {
         "skill": "React",
-        "logo": "/src/assets/icons/react.svg",
+        "logo": "/icons/react.svg",
         "link": "https://react.dev/"
       },
       {
         "skill": "Next.js",
-        "logo": "/src/assets/icons/Next.js.svg",
+        "logo": "/icons/Next.js.svg",
         "link": "https://nextjs.org/"
       },
       {
         "skill": "Typescript",
-        "logo": "/src/assets/icons/typescript.svg",
+        "logo": "/icons/typescript.svg",
         "link": "https://www.typescriptlang.org/"
       },
       {
         "skill": "Redux",
-        "logo": "/src/assets/icons/redux.svg",
+        "logo": "/icons/Redux.svg",
         "link": "https://redux.js.org/"
       },
       {
         "skill": "GraphQL",
-        "logo": "/src/assets/icons/GraphQL.svg",
+        "logo": "/icons/GraphQL.svg",
         "link": "https://graphql.org/"
       }
     ],
     "backend": [
       {
         "skill": "Redis",
-        "logo": "/src/assets/icons/redis.svg",
+        "logo": "/icons/Redis.svg",
         "link": "https://redis.io/"
       },
       {
         "skill": "Spring",
-        "logo": "/src/assets/icons/Spring.svg",
+        "logo": "/icons/Spring.svg",
         "link": "https://spring.io/"
       },
       {
         "skill": "MongoDB",
-        "logo": "/src/assets/icons/MongoDB.svg",
+        "logo": "/icons/MongoDB.svg",
         "link": "https://www.mongodb.com/"
       },
       {
         "skill": "Firebase",
-        "logo": "/src/assets/icons/Firebase.svg",
+        "logo": "/icons/Firebase.svg",
         "link": "https://firebase.google.com/"
       },
       {
         "skill": "SQLite",
-        "logo": "/src/assets/icons/SQLite.svg",
+        "logo": "/icons/SQLite.svg",
         "link": "https://sqlite.org/"
       },
       {
         "skill": "Node JS",
-        "logo": "/src/assets/icons/nodejs.svg",
+        "logo": "/icons/nodejs.svg",
         "link": "https://nodejs.org/en"
       },
       {
         "skill": "Express",
-        "logo": "/src/assets/icons/expressjs.webp",
+        "logo": "/icons/expressjs.webp",
         "link": "https://expressjs.com/"
       },
       {
         "skill": "Jupiter",
-        "logo": "/src/assets/icons/Jupyter.svg",
+        "logo": "/icons/Jupyter.svg",
         "link": "https://jupyter.org/"
       },
       {
         "skill": "Python",
-        "logo": "/src/assets/icons/python.svg",
+        "logo": "/icons/python.svg",
         "link": "https://www.python.org/"
       },
       {
         "skill": "Java JDK",
-        "logo": "/src/assets/icons/java.svg",
+        "logo": "/icons/java.svg",
         "link": "https://www.java.com/en/"
       }
     ]

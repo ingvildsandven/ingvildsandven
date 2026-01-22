@@ -1,6 +1,14 @@
 .card_container {
   background-color: var(--box-background);
   position: relative;
+  overflow: hidden;
+}
+
+.card_container:hover {
+  .fade_container {
+    bottom: 0;
+    transition: bottom 0.3s ease-in;
+  }
 }
 
 .card, .card_container, .card img {
@@ -15,25 +23,23 @@
   object-fit: cover;
 }
 
-.card p {
-  display: none;
-}
-
-.card:hover p {
-  display: block;
-}
-
 .card:hover .bkg_img {
   opacity: 0.2;
+  transition: opacity 0.3s ease-in;
+}
+
+.bkg_img {
+  transition: opacity 0.3s ease-in;
 }
 
 .fade_container {
   position: absolute;
   width: 100%;
-  bottom: 0px;
+  bottom: -60px;
   border-radius: 15px;
   padding-top: 15px;
   background-image: linear-gradient(180deg, rgba(1, 1, 1, 0), var(--background-color));
+  transition: bottom 0.3s ease-in;
 }
 
 .construction_banner {

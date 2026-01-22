@@ -4,6 +4,7 @@
     border: var(--main-color) 2px solid;
     border-radius: 15px;
     background-color: rgba(0,0,0,0);
+    cursor: pointer;
 }
 
 .slider_ball{
@@ -12,10 +13,6 @@
     background-color: var(--main-color);
     border-radius: 100%;
     display: block;
-}
-
-.slider_ball:hover{
-    cursor: pointer;
 }
 
 .slider_light{
