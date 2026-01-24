@@ -1,6 +1,7 @@
 /*Size measure*/
 .experience_card,
-.overlay {
+.overlay,
+.title_container {
   width: 30vw;
   height: 30vw;
   max-width: 400px;
@@ -9,6 +10,7 @@
 }
 
 .experience_card {
+  display: flex;
   position: relative;
 }
 
@@ -18,24 +20,40 @@
   object-fit: cover;
 }
 
-.title {
-  color: var(--font-color);
-  display: none;
-  font-size: 2rem;
-  background-color: var(--box-background-low-opacity);
-}
-
-.overlay {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.overlay,
+.title_container {
   position: absolute;
   top: 0;
 }
 
+.overlay {
+  opacity: 0;
+  background-color: var(--box-background-low-opacity);
+  transition: opacity ease-out 0.2s;
+}
+
+.title_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: clamp(1.2rem, 3vw, 2.5rem);
+  opacity: 0;
+  transition: all ease-in 0.3s;
+  transition-property: opacity, transform;
+  transform: scale(0.8);
+}
+
+.experience_card:hover .title_container,
+.experience_card:hover .overlay,
 .experience_card:hover .title {
-  color: var(--font-clear);
-  display: block;
+  opacity: 1;
+}
+
+.experience_card:hover .title{
+  transform: scale(1);
 }
 
 @media (max-width: 600px) {

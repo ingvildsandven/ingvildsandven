@@ -22,7 +22,7 @@ function ConstructionCard({
           className={
             !endDate ? style.construction_banner : style.no_construction_banner
           }
-          src="construction_tape.png"
+          src="construction_tape.webp"
         />
       </Link>
     </article>

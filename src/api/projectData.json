@@ -25,22 +25,22 @@
         "technologyHighlights": [
           {
             "skill": "HTML5",
-            "logo": "/src/assets/icons/html5.svg",
+            "logo": "/icons/html5.svg",
             "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
           },
           {
             "skill": "CSS3",
-            "logo": "/src/assets/icons/css3.svg",
+            "logo": "/icons/css3.svg",
             "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
           },
           {
             "skill": "Javascript",
-            "logo": "/src/assets/icons/javascript.svg",
+            "logo": "/icons/javascript.svg",
             "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
           },
           {
             "skill": "Firebase",
-            "logo": "/src/assets/icons/Firebase.svg",
+            "logo": "/icons/Firebase.svg",
             "link": "https://firebase.google.com/"
           }
         ],
@@ -95,37 +95,37 @@
         "technologyHighlights": [
           {
             "skill": "React",
-            "logo": "/src/assets/icons/react.svg",
+            "logo": "/icons/react.svg",
             "link": "https://react.dev/"
           },
           {
             "skill": "MongoDB",
-            "logo": "/src/assets/icons/MongoDB.svg",
+            "logo": "/icons/MongoDB.svg",
             "link": "https://www.mongodb.com/"
           },
           {
             "skill": "Typescript",
-            "logo": "/src/assets/icons/typescript.svg",
+            "logo": "/icons/typescript.svg",
             "link": "https://www.typescriptlang.org/"
           },
           {
             "skill": "Redux",
-            "logo": "/src/assets/icons/redux.svg",
+            "logo": "/icons/redux.svg",
             "link": "https://redux.js.org/"
           },
           {
             "skill": "Redis",
-            "logo": "/src/assets/icons/redis.svg",
+            "logo": "/icons/redis.svg",
             "link": "https://redis.io/"
           },
           {
             "skill": "Playwright",
-            "logo": "/src/assets/icons/playwright.svg",
+            "logo": "/icons/playwright.svg",
             "link": "https://playwright.dev/"
           },
           {
             "skill": "Vitest",
-            "logo": "/src/assets/icons/vite.svg",
+            "logo": "/icons/vite.svg",
             "link": "https://vitest.dev/"
           }
         ],
@@ -162,27 +162,27 @@
         "technologyHighlights": [
           {
             "skill": "React",
-            "logo": "/src/assets/icons/react.svg",
+            "logo": "/icons/react.svg",
             "link": "https://react.dev/"
           },
           {
             "skill": "Typescript",
-            "logo": "/src/assets/icons/typescript.svg",
+            "logo": "/icons/typescript.svg",
             "link": "https://www.typescriptlang.org/"
           },
           {
             "skill": "Vitest",
-            "logo": "/src/assets/icons/vite.svg",
+            "logo": "/icons/vite.svg",
             "link": "https://vitest.dev/"
           },
           {
             "skill": "CSS3",
-            "logo": "/src/assets/icons/css3.svg",
+            "logo": "/icons/css3.svg",
             "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
           },
           {
             "skill": "Firebase",
-            "logo": "/src/assets/icons/Firebase.svg",
+            "logo": "/icons/Firebase.svg",
             "link": "https://firebase.google.com/"
           }
         ],

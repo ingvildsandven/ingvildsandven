@@ -13,8 +13,9 @@ function ExperienceCard({ img_link, page_link, alt, title }: CardProps) {
     <article className={style.experience_card}>
       <Link to={page_link}>
         <img src={img_link} alt={alt} className={style.experience_img} />
-        <div className={style.overlay}>
-          <h3 className={style.title}>{title}</h3>
+        <div className={style.overlay}></div>
+        <div className={style.title_container}>
+          <h3 className={style.title}>{title}</h3>{" "}
         </div>
       </Link>
     </article>
