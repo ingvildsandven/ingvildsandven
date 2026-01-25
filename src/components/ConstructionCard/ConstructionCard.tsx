@@ -15,7 +15,7 @@ function ConstructionCard({
       <Link to={"project/" + url} className={style.card}>
         <img src={image} alt={title} className={style.bkg_img} loading="lazy" />
         <div className={style.fade_container}>
-          <h2>{title}</h2>
+          <h3>{title}</h3>
           <p>{shortDescription}</p>
         </div>
         <img

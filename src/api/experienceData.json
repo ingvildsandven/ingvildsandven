@@ -3,8 +3,8 @@
     "title": "Graphcore",
     "description": "My most relevant work experience is the on-call position I held for three years at Graphcore AS. Graphcore works on developing accelerators for AI and machine learning. \n\n There, I worked with experienced people who had valuable knowledge from several decades in the industry. I supported the hardware team with testing and writing test reports, lab setup, and assembling prototypes. The prototypes included M2000 systems, high-frequency cables, and optical components. In hindsight, I have found it extremely exciting to learn things at NTNU that I can directly relate to the work I did at Graphcore. \n\n See pictures bellow.",
     "images": [
-      { "image": "https://i.postimg.cc/gcgYmwMF/graphcore.jpg", "span": 4 },
-      { "image": "https://i.postimg.cc/sD13XVLb/Graphcore_logo.png", "span": 2 },
+      { "image": "https://i.postimg.cc/DZH8gB8M/Graphcore-logo.webp", "span": 4 },
+      { "image": "https://i.postimg.cc/W473Bst9/graphcore.webp", "span": 2 },
 
       { "image": "https://i.postimg.cc/TYhTwRSG/lab.webp", "span": 6 },
 
@@ -43,7 +43,7 @@
 
       { "image": "https://i.postimg.cc/5Nt2C5HV/scilent_disco.jpg", "span": 3 },
       { "image": "https://i.postimg.cc/sD2ghPB2/scilent_disco1.jpg", "span": 3 },
-      
+
       { "image": "https://i.postimg.cc/kX5gbNVB/vors.webp", "span": 3 },
       { "image": "https://i.postimg.cc/NfPf7yTQ/vors2.webp", "span": 3 }
     ]

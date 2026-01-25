@@ -30,7 +30,8 @@
   padding-block: 3vh;
 }
 
-.icons_container h3 {
+.icons_container h2 {
+    font-size: 1.2rem;
     position: absolute;
     top: -4vh;
     left: 20px;
@@ -41,6 +42,10 @@
 .coding_container,
 .backend_container {
     grid-column: span 2;
+}
+
+.display_none{
+  display: none;
 }
 
 @media (max-width: 600px) {

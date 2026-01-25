@@ -4,7 +4,7 @@
       "title": "Helene Volle Portfolio",
       "github": "https://github.com/ESPR07/helene-volle-portfolio",
       "hosted": "https://helenevolle.com/",
-      "image": "https://i.postimg.cc/MK0gqgZf/helene_volle_frontpage.webp",
+      "image": "https://i.postimg.cc/4NFF1c54/helene-volle-frontpage.webp",
       "shortDescription": "Portfolio for an artist",
       "startDate": "26-06-2024",
       "endDate": "14-07-2024",
@@ -71,7 +71,7 @@
       "title": "LetThemCook",
       "github": "https://github.com/bookdragonish/letthemcook",
       "hosted": "http://it2810-02.idi.ntnu.no/project2/",
-      "image": "https://i.postimg.cc/zXNPtpCc/let_Them_Cook_frontpage.webp",
+      "image": "https://i.postimg.cc/VLs3gmcy/let_Them_Cook_frontpage.webp",
       "shortDescription": "React and MongoDB group project",
       "startDate": "01-09-2023",
       "endDate": "20-01-2024",
@@ -110,12 +110,12 @@
           },
           {
             "skill": "Redux",
-            "logo": "/icons/redux.svg",
+            "logo": "/icons/Redux.svg",
             "link": "https://redux.js.org/"
           },
           {
             "skill": "Redis",
-            "logo": "/icons/redis.svg",
+            "logo": "/icons/Redis.svg",
             "link": "https://redis.io/"
           },
           {
@@ -143,7 +143,7 @@
       "title": "Diagnosefellen",
       "github": "https://github.com/bookdragonish/diagnosefellen/",
       "hosted": "",
-      "image": "https://i.postimg.cc/qqv420vy/book.png",
+      "image": "https://i.postimg.cc/L8zBZMgd/book.webp",
       "shortDescription": "Site for Henriette Sandven",
       "startDate": "13-12-2025",
       "endDate": "",
@@ -190,7 +190,7 @@
         "imagesFolder": "",
         "images": [
           { "image": "https://i.postimg.cc/RhZ4w9Z7/Leikny_Havik_Avstandsbilde.webp", "span": 2 },
-          { "image": "https://i.postimg.cc/qqv420vy/book.png", "span": 2 },
+          { "image": "https://i.postimg.cc/L8zBZMgd/book.webp", "span": 2 },
           { "image": "https://i.postimg.cc/rswM5cwS/Leikny_Havik_Normal.webp", "span": 2 }
         ]
       }

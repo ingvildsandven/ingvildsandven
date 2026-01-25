@@ -12,6 +12,7 @@ function SummaryComponent() {
           src="/selfie.webp"
           alt="selfie image"
           loading="lazy"
+          fetchPriority="high"
           className={style.selfie_img}
         />
         <SomeContainer />
@@ -19,11 +20,11 @@ function SummaryComponent() {
       <article className={style.skill_container}>
         {/*TODO: Remove this box*/}
         <div className={style.icons_container}>
-         
-          <div className={style.design_container}> 
-            <h3>Planning</h3>
+          <div className={style.design_container}>
+            <h2>Planning</h2>
             {skills.skills.planning.map((skill: Skill) => (
               <SkillButton
+                key={skill.skill}
                 skill={skill.skill}
                 logo={skill.logo}
                 link={skill.link}
@@ -32,9 +33,10 @@ function SummaryComponent() {
           </div>
 
           <div className={style.test_container}>
-            <h3>Testing</h3>
+            <h2>Testing</h2>
             {skills.skills.testing.map((skill: Skill) => (
               <SkillButton
+                key={skill.skill}
                 skill={skill.skill}
                 logo={skill.logo}
                 link={skill.link}
@@ -43,9 +45,10 @@ function SummaryComponent() {
           </div>
 
           <div className={style.coding_container}>
-            <h3>Frontend</h3>
+            <h2>Frontend</h2>
             {skills.skills.frontend.map((skill: Skill) => (
               <SkillButton
+                key={skill.skill}
                 skill={skill.skill}
                 logo={skill.logo}
                 link={skill.link}
@@ -54,9 +57,10 @@ function SummaryComponent() {
           </div>
 
           <div className={style.backend_container}>
-            <h3>Backend</h3>
+            <h2>Backend</h2>
             {skills.skills.backend.map((skill: Skill) => (
               <SkillButton
+                key={skill.skill}
                 skill={skill.skill}
                 logo={skill.logo}
                 link={skill.link}
