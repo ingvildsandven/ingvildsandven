@@ -5,7 +5,7 @@
 }
 
 [data-theme="light"] {
-  --main-color: #748873;
+  --main-color: #617260;
   --element-color: #5f4326;
   --background-color: #f8f8f8;
   --box-background: #e5e0d8;
@@ -16,7 +16,7 @@
 }
 
 [data-theme="dark"] {
-  --main-color: #748873;
+  --main-color: #8ea58d;
   --element-color: #d1a980;
   --background-color: #282828;
   --box-background: #3f3f3f;

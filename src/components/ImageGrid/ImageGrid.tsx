@@ -20,6 +20,7 @@ function ImageGrid({ images, folderTitle }: ImageGridProps) {
               className={style.image}
               loading="lazy" 
               src={folder + image.image}
+              alt={image.alt}
             />
           </article>
         );

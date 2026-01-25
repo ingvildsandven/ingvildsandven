@@ -1,42 +1,38 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo } from "react";
 import experience from "../../api/experienceData.json";
-import { Link } from "react-router";
+import { Link, useParams } from "react-router";
 import ImageGrid from "../../components/ImageGrid/ImageGrid";
 import style from "./ExperiencePage.module.css";
 import ToTopButton from "../../components/ToTopButton/ToTopButton";
-
-interface imagesArray {
-  image: string;
-  span: number;
-}
-
-type Experience = {
-  title: string;
-  images: imagesArray[];
-  description: string;
-};
+import type { Experience } from "../../types/image";
 
 function ExperiencePage() {
-  const [data, setData] = useState<Experience>({
-    title: "No experience found",
-    images: [{ image: "", span: 0 }],
-    description: "",
-  });
+  const { title } = useParams();
+
+  const data = useMemo<Experience | null>(() => {
+    if (!experience || !title) return null;
+
+    if (title === "Graphcore") return experience[0];
+    if (title === "Online") return experience[1];
+
+    return null;
+  }, [title]);
 
   useEffect(() => {
-    const urlArray = window.location.href.split("/");
-    const title = urlArray[urlArray.length - 1];
-
     window.scrollTo(0, 0);
-
-    if (experience) {
-      if (title == "Graphcore") {
-        setData(experience[0]);
-      } else if (title == "Online") {
-        setData(experience[1]);
-      }
-    }
   }, []);
+
+  if (!data) {
+    return (
+      <main>
+        {" "}
+        <Link to="/" className={style.link}>
+          Back
+        </Link>{" "}
+        <p>No experience with name {title} found.</p>
+      </main>
+    );
+  }
 
   return (
     <main className={style.main}>

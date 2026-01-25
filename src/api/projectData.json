@@ -54,15 +54,29 @@
         "images": [
           {
             "image": "https://i.postimg.cc/8587d72R/helene_adimin_main_page.webp",
+            "alt": "Screenshot of admin main page to helene volle portfolio",
             "span": 3
           },
           {
             "image": "https://i.postimg.cc/9M3DPD6b/helene_admin_changes.webp",
+            "alt": "Screenshot of admin page for changes",
             "span": 3
           },
-          { "image": "https://i.postimg.cc/PxGCbCg2/helene_admin_login.webp", "span": 2 },
-          { "image": "https://i.postimg.cc/Tw8KjKzQ/helene_navigation.webp", "span": 2 },
-          { "image": "https://i.postimg.cc/vBR474J0/helene_home_mobile.webp", "span": 2 }
+          {
+            "image": "https://i.postimg.cc/PxGCbCg2/helene_admin_login.webp",
+            "alt": "Screenshot of admin login page",
+            "span": 2
+          },
+          {
+            "image": "https://i.postimg.cc/Tw8KjKzQ/helene_navigation.webp",
+            "alt": "Screenshot image navigation",
+            "span": 2
+          },
+          {
+            "image": "https://i.postimg.cc/vBR474J0/helene_home_mobile.webp",
+            "alt": "Screenshot mobile version of home page",
+            "span": 2
+          }
         ]
       }
     },
@@ -189,9 +203,21 @@
         "highlights": ["Real project with real client"],
         "imagesFolder": "",
         "images": [
-          { "image": "https://i.postimg.cc/RhZ4w9Z7/Leikny_Havik_Avstandsbilde.webp", "span": 2 },
-          { "image": "https://i.postimg.cc/L8zBZMgd/book.webp", "span": 2 },
-          { "image": "https://i.postimg.cc/rswM5cwS/Leikny_Havik_Normal.webp", "span": 2 }
+          {
+            "image": "https://i.postimg.cc/RhZ4w9Z7/Leikny_Havik_Avstandsbilde.webp",
+            "alt": "Photograph of Henriette Sandven by Leikny Havik",
+            "span": 2
+          },
+          {
+            "image": "https://i.postimg.cc/L8zBZMgd/book.webp",
+            "span": 2,
+            "alt": "Book cover of diagnosefellen"
+          },
+          {
+            "image": "https://i.postimg.cc/rswM5cwS/Leikny_Havik_Normal.webp",
+            "alt": "Up close photograph of Henriette Sandven by Leikny Havik",
+            "span": 2
+          }
         ]
       }
     }

@@ -1,46 +1,24 @@
 import { Link, useParams } from "react-router";
 import style from "./ProjectPage.module.css";
 import data from "../../api/projectData.json";
-import { useEffect, useState } from "react";
-import type { Project } from "../../types/project";
+import { useEffect, useMemo } from "react";
 import SkillButton from "../../components/SkillButton/SkillButton";
 import ImageGrid from "../../components/ImageGrid/ImageGrid";
 import ToTopButton from "../../components/ToTopButton/ToTopButton";
 
 function ProjectPage() {
-  const [projectData, setProjectData] = useState<Project>({
-    title: "",
-    github: "",
-    hosted: "",
-    image: "",
-    shortDescription: "",
-    startDate: "",
-    endDate: "",
-    collaborators: [{ name: "", email: "", github: "" }],
-    longDescription: {
-      intro: "",
-      motivation: "",
-      process: "",
-      futureAdditions: [],
-      technologyHighlights: [],
-      highlights: [],
-      images: [],
-      imagesFolder: "",
-    },
-  });
   const { title } = useParams();
 
-    useEffect(() => {
+  useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  useEffect(() => {
-    if (!title || !data?.projects) return;
-    if (title)
-      setProjectData(
-        data?.projects?.[title.toLowerCase() as keyof typeof data.projects],
-      );
-  }, [title, data]);
+  const projectData = useMemo(() => {
+    if (!title || !data?.projects) return null;
+
+    const key = title.toLowerCase() as keyof typeof data.projects;
+    return data.projects[key] ?? null;
+  }, [title]);
 
   if (!projectData) {
     return (
@@ -54,7 +32,6 @@ function ProjectPage() {
   }
 
   return (
-    
     <main>
       <Link to="/" className={style.link}>
         Back
