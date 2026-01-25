@@ -9,8 +9,9 @@ function SummaryComponent() {
     <section className={style.summary_container}>
       <article className={style.personal_info_container}>
         <img
-          src="/selfie.jpg"
+          src="/selfie.webp"
           alt="selfie image"
+          loading="lazy"
           className={style.selfie_img}
         />
         <SomeContainer />

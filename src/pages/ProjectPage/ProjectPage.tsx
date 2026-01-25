@@ -77,7 +77,11 @@ function ProjectPage() {
       </section>
 
       <div className={style.section_container}>
-        <img src={projectData.image} className={style.image}></img>
+        <img
+          src={projectData.image}
+          className={style.image}
+          loading="lazy"
+        ></img>
 
         <h2 className={style.display_none}>About</h2>
         <section className={style.overview}>

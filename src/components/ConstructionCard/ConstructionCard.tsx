@@ -13,7 +13,7 @@ function ConstructionCard({
   return (
     <article className={style.card_container}>
       <Link to={"project/" + url} className={style.card}>
-        <img src={image} alt={title} className={style.bkg_img}/>
+        <img src={image} alt={title} className={style.bkg_img} loading="lazy" />
         <div className={style.fade_container}>
           <h2>{title}</h2>
           <p>{shortDescription}</p>
@@ -23,6 +23,9 @@ function ConstructionCard({
             !endDate ? style.construction_banner : style.no_construction_banner
           }
           src="construction_tape.webp"
+          loading="lazy"
+          alt="construction banner"
+          fetchPriority="high"
         />
       </Link>
     </article>

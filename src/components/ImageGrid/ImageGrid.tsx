@@ -18,7 +18,7 @@ function ImageGrid({ images, folderTitle }: ImageGridProps) {
             <img
               key={image.image}
               className={style.image}
-              
+              loading="lazy" 
               src={folder + image.image}
             />
           </article>
