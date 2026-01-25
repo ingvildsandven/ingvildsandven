@@ -5,6 +5,10 @@ main {
   justify-content: center;
 }
 
+.link{
+  font-size: 1.2rem;
+}
+
 .link:hover {
   text-decoration: underline;
 }

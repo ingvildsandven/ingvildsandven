@@ -6,6 +6,7 @@
 }
 .experience_title {
   text-transform: uppercase;
+  letter-spacing: 2px;
   color: var(--box-background)
 }
 

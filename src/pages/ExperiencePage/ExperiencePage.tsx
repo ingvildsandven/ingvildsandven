@@ -27,6 +27,8 @@ function ExperiencePage() {
     const urlArray = window.location.href.split("/");
     const title = urlArray[urlArray.length - 1];
 
+    window.scrollTo(0, 0);
+
     if (experience) {
       if (title == "Graphcore") {
         setData(experience[0]);
@@ -42,7 +44,7 @@ function ExperiencePage() {
         Back
       </Link>
 
-      <ToTopButton/>
+      <ToTopButton />
 
       <section className={style.info_container}>
         <h1>{data.title}</h1>

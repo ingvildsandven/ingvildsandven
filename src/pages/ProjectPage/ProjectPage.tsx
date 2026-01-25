@@ -30,6 +30,10 @@ function ProjectPage() {
   });
   const { title } = useParams();
 
+    useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   useEffect(() => {
     if (!title || !data?.projects) return;
     if (title)

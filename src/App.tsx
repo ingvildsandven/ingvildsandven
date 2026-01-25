@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar/Navbar";
 import ProjectPage from "./pages/ProjectPage/ProjectPage";
 import ExperiencePage from "./pages/ExperiencePage/ExperiencePage";
 import Footer from "./components/Footer/Footer";
+import { useEffect } from "react";
 
 function Layout() {
   return (
@@ -16,6 +17,9 @@ function Layout() {
 }
 
 function App() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <ThemeProvider>
       <Routes>
