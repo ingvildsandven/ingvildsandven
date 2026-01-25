@@ -1,0 +1,27 @@
+html {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+
+Link {
+  text-decoration: none;
+}
+
+a {
+  color: var(--font-color);
+  text-decoration: none;
+}
+
+p, ul {
+  white-space: pre-wrap;
+  line-height: 1.8;
+}
+
+div,
+section,
+a,
+h3, h2, h4 {
+  transition:
+    background-color 0.3s ease-out,
+    color 0.7s ease-in;
+}

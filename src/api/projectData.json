@@ -1,0 +1,225 @@
+{
+  "projects": {
+    "helene_volle_portfolio": {
+      "title": "Helene Volle Portfolio",
+      "github": "https://github.com/ESPR07/helene-volle-portfolio",
+      "hosted": "https://helenevolle.com/",
+      "image": "https://i.postimg.cc/4NFF1c54/helene-volle-frontpage.webp",
+      "shortDescription": "Portfolio for an artist",
+      "startDate": "26-06-2024",
+      "endDate": "14-07-2024",
+      "collaborators": [
+        {
+          "name": "Sindre Derås",
+          "email": "sinder009@gmail.com",
+          "github": "https://github.com/ESPR07"
+        }
+      ],
+      "longDescription": {
+        "intro": "This website is a portfolio page created by my partner in crime and I for my friend and artist Helene Volle.",
+        "motivation": "My friend was in 2024 to apply to a master in a crossfield between art and biology in Italy. She started creating a website portfolio using a drag-and-drop system where she could display her art. While the design was good it was not how she visioned it, and during a visit she asked if I had knowledge on this field. I asked if my partner and I could code her website instead, and she agreed.",
+        "process": "This application had a timeframe, as Helene needed it finished in order to apply to the collage. This made us decide to use vanilla code as I was more familiar with this, not having learned react yet. In total we had a couple of weeks during summer vacation to finish the entire project. The minimum requirement from Helene was that she needed an overview of all her projects and an about her page. For each of her projects she needed to be able to display images of her art in a grid system. \n\n We prioritized the grid system for the images, as this was the main feature for the art page. Helene had created a color scheme, wireframe and a logo herself and voiced all of her thoughts about the project, and in the end it became as she envisioned. In the end we also added: (1) Posibility to see each image on a large screen when clicking on it (2) Navigationbuttons between these (3) Separation between smaller and larger projects (4) Saving files to firebase.\n\n The last addition to the page was the admin page. Due to security reasons this is not open to public, however I added screenshots from this bellow.",
+        "futureAdditions": [
+          "Extended admin functionality: ability to change about-info"
+        ],
+        "technologyHighlights": [
+          {
+            "skill": "HTML5",
+            "logo": "/icons/html5.svg",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+          },
+          {
+            "skill": "CSS3",
+            "logo": "/icons/css3.svg",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+          },
+          {
+            "skill": "Javascript",
+            "logo": "/icons/javascript.svg",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+          },
+          {
+            "skill": "Firebase",
+            "logo": "/icons/Firebase.svg",
+            "link": "https://firebase.google.com/"
+          }
+        ],
+        "highlights": [
+          "Real project",
+          "Use of firebase",
+          "Created admin site",
+          "Collaboration"
+        ],
+        "imagesFolder": "",
+        "images": [
+          {
+            "image": "https://i.postimg.cc/8587d72R/helene_adimin_main_page.webp",
+            "alt": "Screenshot of admin main page to helene volle portfolio",
+            "span": 3
+          },
+          {
+            "image": "https://i.postimg.cc/9M3DPD6b/helene_admin_changes.webp",
+            "alt": "Screenshot of admin page for changes",
+            "span": 3
+          },
+          {
+            "image": "https://i.postimg.cc/PxGCbCg2/helene_admin_login.webp",
+            "alt": "Screenshot of admin login page",
+            "span": 2
+          },
+          {
+            "image": "https://i.postimg.cc/Tw8KjKzQ/helene_navigation.webp",
+            "alt": "Screenshot image navigation",
+            "span": 2
+          },
+          {
+            "image": "https://i.postimg.cc/vBR474J0/helene_home_mobile.webp",
+            "alt": "Screenshot mobile version of home page",
+            "span": 2
+          }
+        ]
+      }
+    },
+
+    "letthemcook": {
+      "title": "LetThemCook",
+      "github": "https://github.com/bookdragonish/letthemcook",
+      "hosted": "http://it2810-02.idi.ntnu.no/project2/",
+      "image": "https://i.postimg.cc/VLs3gmcy/let_Them_Cook_frontpage.webp",
+      "shortDescription": "React and MongoDB group project",
+      "startDate": "01-09-2023",
+      "endDate": "20-01-2024",
+      "collaborators": [
+        {
+          "name": "Gina Giske",
+          "email": "gina.b.giske@icloud.com",
+          "github": "https://github.com/gegiske"
+        }
+      ],
+      "longDescription": {
+        "intro": "This project was one of two projects in the course IT2810 Webutvikling. The hosted link is hidden for anyone without ntnu vpn.",
+        "motivation": "In our application the user can find food recipes. The user can select categories and the page will filter the displayed recipes based on this. Additionaly, the user can sort recipes alphabetically ascending or descending. It also has a randomizer button that takes the user to a random recipe, to give the user some inspiration as to what to cook. \n The application also has a search function, that searches based on the user's input in the search field. The search function has its own page, to separate it from other filters and sorting to make it look cleaner and easier to use. Sorting search results alphabetically or filtering based on category would not lead to the best results for the user, as they already get the most relevant data at the top from their search input. This would not be the case anymore after sorting or filtering.",
+        "process": "This project had approximatly a two month deadline, with four partial deliveries. The first was to finish a minimal vital product, second to have data connected to the page, third to have tests in order and fourth to fix all bugs. We used issues and kanban boards to structurate. \n\n Per now the website is not hosted publically, however this will be done in the future. Until then you can follow the installation guide on github, beware that the installation guide require you to setup mongo DB as this is also hosted on an NTNU server.",
+        "futureAdditions": [
+          "Host the page on a public accessible domain",
+          "Host the server",
+          "Update the search resolver",
+          "Will possibly add more functionality"
+        ],
+        "technologyHighlights": [
+          {
+            "skill": "React",
+            "logo": "/icons/react.svg",
+            "link": "https://react.dev/"
+          },
+          {
+            "skill": "MongoDB",
+            "logo": "/icons/MongoDB.svg",
+            "link": "https://www.mongodb.com/"
+          },
+          {
+            "skill": "Typescript",
+            "logo": "/icons/typescript.svg",
+            "link": "https://www.typescriptlang.org/"
+          },
+          {
+            "skill": "Redux",
+            "logo": "/icons/Redux.svg",
+            "link": "https://redux.js.org/"
+          },
+          {
+            "skill": "Redis",
+            "logo": "/icons/Redis.svg",
+            "link": "https://redis.io/"
+          },
+          {
+            "skill": "Playwright",
+            "logo": "/icons/playwright.svg",
+            "link": "https://playwright.dev/"
+          },
+          {
+            "skill": "Vitest",
+            "logo": "/icons/vite.svg",
+            "link": "https://vitest.dev/"
+          }
+        ],
+        "highlights": [
+          "Backend implemented",
+          "Caching using redis is implemented",
+          "Extensive testing: end to end, component and snapshot tests"
+        ],
+        "imagesFolder": "",
+        "images": []
+      }
+    },
+
+    "diagnosefellen": {
+      "title": "Diagnosefellen",
+      "github": "https://github.com/bookdragonish/diagnosefellen/",
+      "hosted": "",
+      "image": "https://i.postimg.cc/L8zBZMgd/book.webp",
+      "shortDescription": "Site for Henriette Sandven",
+      "startDate": "13-12-2025",
+      "endDate": "",
+      "collaborators": [],
+      "longDescription": {
+        "intro": "Henriette Sandven is a specialist in child and adolescent psychiatry, and in 2025 she published the book Diagnosefellen, which discusses how too many children today are being diagnosed and medicated unnecessarily. She has been particularly outspoken in the public ADHD debate, which has received significant attention in Norwegian media. With over 15 years of clinical experience, Henriette has developed a strong professional voice in her field — and, as her name suggests, I am also proud to be her daughter.",
+        "motivation": "Since the publication of her book, Henriette has received numerous requests to participate in podcasts, lectures, interviews, articles, and other public appearances. In connection with these requests, she is often asked to provide written information about the topics she can speak about, her professional perspective, and relevant background material. At the same time, many people are unsure of her stance on certain issues and want an accessible source where her work and contributions are clearly presented. \n\n The motivation behind this project is therefore to develop a dedicated website that gathers and organizes her public content in one place. The site will function as a structured archive of relevant material, such as podcasts, lectures, interviews, articles, and other appearances making it easy to find, share, and keep updated over time. In addition, the website will include a booking/contact form, allowing event organizers and media outlets to reach Henriette directly by email for speaking engagements and collaborations.",
+        "process": "This is still a fresh project, however the domain diagnosefellen.no is bought and the form have the elements they need.",
+        "futureAdditions": [
+          "Admin site",
+          "Mail setup",
+          "Booking form",
+          "Booking security with focus on security from hate mail",
+          "Main page containing links and images"
+        ],
+        "technologyHighlights": [
+          {
+            "skill": "React",
+            "logo": "/icons/react.svg",
+            "link": "https://react.dev/"
+          },
+          {
+            "skill": "Typescript",
+            "logo": "/icons/typescript.svg",
+            "link": "https://www.typescriptlang.org/"
+          },
+          {
+            "skill": "Vitest",
+            "logo": "/icons/vite.svg",
+            "link": "https://vitest.dev/"
+          },
+          {
+            "skill": "CSS3",
+            "logo": "/icons/css3.svg",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+          },
+          {
+            "skill": "Firebase",
+            "logo": "/icons/Firebase.svg",
+            "link": "https://firebase.google.com/"
+          }
+        ],
+        "highlights": ["Real project with real client"],
+        "imagesFolder": "",
+        "images": [
+          {
+            "image": "https://i.postimg.cc/RhZ4w9Z7/Leikny_Havik_Avstandsbilde.webp",
+            "alt": "Photograph of Henriette Sandven by Leikny Havik",
+            "span": 2
+          },
+          {
+            "image": "https://i.postimg.cc/L8zBZMgd/book.webp",
+            "span": 2,
+            "alt": "Book cover of diagnosefellen"
+          },
+          {
+            "image": "https://i.postimg.cc/rswM5cwS/Leikny_Havik_Normal.webp",
+            "alt": "Up close photograph of Henriette Sandven by Leikny Havik",
+            "span": 2
+          }
+        ]
+      }
+    }
+  }
+}

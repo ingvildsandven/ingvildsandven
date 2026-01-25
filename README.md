@@ -1,3 +1,6 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8c49e0de-6e4f-46e3-a444-05de133dda5a/deploy-status)](https://app.netlify.com/projects/ingvildsandven/deploys)
+
+
 # 🌟 Hi there — I’m Ingvild!
 ### *Computer Science student | Tech enthusiast*
 
@@ -7,6 +10,8 @@ My background includes hands-on **hardware lab work**, **prototype testing**, **
 I enjoy building projects, learning continuously, and contributing wherever I can.
 
 ---
+### *See my portfolio*
+[Hosted page](https://ingvildsandven.netlify.app/)
 
 ## 🧰 Tech Stack
 

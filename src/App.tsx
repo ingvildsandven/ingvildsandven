@@ -1,19 +1,29 @@
-
 import "./App.css";
 import { Outlet, Route, Routes } from "react-router";
-import { ThemeProvider } from "./context/ThemeContext";
-import ToggleThemeButton from "./components/ToggleThemeButton";
+import { ThemeProvider } from "./context/ThemeProvider";
+import HomePage from "./pages/HomePage/HomePage";
+import Navbar from "./components/Navbar/Navbar";
+import ProjectPage from "./pages/ProjectPage/ProjectPage";
+import ExperiencePage from "./pages/ExperiencePage/ExperiencePage";
+import Footer from "./components/Footer/Footer";
 
 function Layout() {
-  return <Outlet />;
+  return (
+    <>
+      <Navbar /> <Outlet /> <Footer />
+    </>
+  );
 }
 
 function App() {
+
   return (
     <ThemeProvider>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<><h1>HelloWorld</h1><ToggleThemeButton/></>} />
+          <Route index element={<HomePage />} />
+          <Route path="/project/:title" element={<ProjectPage />} />
+          <Route path="/experience/:title" element={<ExperiencePage />} />
         </Route>
       </Routes>
     </ThemeProvider>

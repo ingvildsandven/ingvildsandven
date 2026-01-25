@@ -1,0 +1,73 @@
+.card_container {
+  background-color: var(--box-background);
+  position: relative;
+  overflow: hidden;
+}
+
+.card_container:hover {
+  .fade_container {
+    bottom: 0;
+    transition: bottom 0.3s ease-in;
+  }
+}
+
+.fade_container h3{
+  font-size: 1.5rem;
+}
+
+.card, .card_container, .card img {
+  border-radius: 15px;
+  min-width: 300px;
+  width: 35vw;
+  height: 28vh;
+  min-height: 150px;
+  max-width: 350px;
+}
+
+.card img {
+  object-fit: cover;
+}
+
+.card:hover .bkg_img {
+  opacity: 0.2;
+  transition: opacity 0.3s ease-in;
+}
+
+.bkg_img {
+  transition: opacity 0.3s ease-in;
+}
+
+.fade_container {
+  position: absolute;
+  width: 100%;
+  bottom: -60px;
+  border-radius: 15px;
+  padding-top: 15px;
+  background-image: linear-gradient(180deg, rgba(1, 1, 1, 0) 0%, var(--box-background-low-opacity) 30%, var(--background-color) 75%);
+  transition: bottom 0.3s ease-in;
+}
+
+.fade_container h3{
+    letter-spacing: 1px;
+}
+
+.construction_banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 200px;
+  pointer-events: none;
+  display: block;
+  border-radius: 15px;
+}
+
+.no_construction_banner {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .card, .card_container, .card img {
+    width: 80vw;
+  }
+}
