@@ -31,9 +31,11 @@
 }
 
 .icons_container h2 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 3px;
     position: absolute;
-    top: -4vh;
+    top: -3vh;
     left: 20px;
     padding-inline: 1vw;
     background-color: var(--background-color);
