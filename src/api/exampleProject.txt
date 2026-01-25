@@ -20,7 +20,7 @@
           }
         ],
         "highlights": ["Very cool 1", "Yess"],
-        "imagesFolder": "public/helenevolle/",
+        "imagesFolder": "helenevolle/",
         "images": []
       }
     }

@@ -4,7 +4,7 @@
       "title": "Helene Volle Portfolio",
       "github": "https://github.com/ESPR07/helene-volle-portfolio",
       "hosted": "https://helenevolle.com/",
-      "image": "https://private-user-images.githubusercontent.com/111272036/524987479-fb5f7736-f91a-40be-b217-363f0d67c13f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg2NTY3OTAsIm5iZiI6MTc2ODY1NjQ5MCwicGF0aCI6Ii8xMTEyNzIwMzYvNTI0OTg3NDc5LWZiNWY3NzM2LWY5MWEtNDBiZS1iMjE3LTM2M2YwZDY3YzEzZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMTE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDExN1QxMzI4MTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xNDk4YWU2NjU1YzczYjZmMmY1ODVlYmRjYmFjOWU2OTRkM2I2NDFmYzVhN2UzZWU3NGRkZmYyMjIwYTE1ZDE3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ebZ98LLFycM_5KdtRu74akHQ_DNW8lArP5qSrsjF9CU",
+      "image": "https://i.postimg.cc/MK0gqgZf/helene_volle_frontpage.webp",
       "shortDescription": "Portfolio for an artist",
       "startDate": "26-06-2024",
       "endDate": "14-07-2024",
@@ -50,19 +50,19 @@
           "Created admin site",
           "Collaboration"
         ],
-        "imagesFolder": "public/helenevolle",
+        "imagesFolder": "",
         "images": [
           {
-            "image": "helene_adimin_main_page.webp",
+            "image": "https://i.postimg.cc/8587d72R/helene_adimin_main_page.webp",
             "span": 3
           },
           {
-            "image": "helene_admin_changes.webp",
+            "image": "https://i.postimg.cc/9M3DPD6b/helene_admin_changes.webp",
             "span": 3
           },
-          { "image": "helene_admin_login.webp", "span": 2 },
-          { "image": "helene_navigation.webp", "span": 2 },
-          { "image": "helene_home_mobile.webp", "span": 2 }
+          { "image": "https://i.postimg.cc/PxGCbCg2/helene_admin_login.webp", "span": 2 },
+          { "image": "https://i.postimg.cc/Tw8KjKzQ/helene_navigation.webp", "span": 2 },
+          { "image": "https://i.postimg.cc/vBR474J0/helene_home_mobile.webp", "span": 2 }
         ]
       }
     },
@@ -71,8 +71,8 @@
       "title": "LetThemCook",
       "github": "https://github.com/bookdragonish/letthemcook",
       "hosted": "http://it2810-02.idi.ntnu.no/project2/",
-      "image": "https://private-user-images.githubusercontent.com/70192385/526524275-7ccc946a-ec9e-4d6f-bac8-1cbb3f8be126.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg2NTY4MjMsIm5iZiI6MTc2ODY1NjUyMywicGF0aCI6Ii83MDE5MjM4NS81MjY1MjQyNzUtN2NjYzk0NmEtZWM5ZS00ZDZmLWJhYzgtMWNiYjNmOGJlMTI2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTE3VDEzMjg0M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTAzZjNjNTcwODg3NzI5YTgyY2I0MDMwOTUxMWQyZWY0NzlhZDVkYTQ0ZWZiYmRkMTRmOGZkNmYxZmUwZGNhYzAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.L_e2wjli02rrt2CEvElAPnKOs7pYHe9bT5m-U_NAGfI",
-      "shortDescription": "School project using React and MongoDB",
+      "image": "https://i.postimg.cc/zXNPtpCc/let_Them_Cook_frontpage.webp",
+      "shortDescription": "React and MongoDB group project",
       "startDate": "01-09-2023",
       "endDate": "20-01-2024",
       "collaborators": [
@@ -143,7 +143,7 @@
       "title": "Diagnosefellen",
       "github": "https://github.com/bookdragonish/diagnosefellen/",
       "hosted": "",
-      "image": "https://github.com/bookdragonish/diagnosefellen/raw/dev/src/assets/images/book/14.png",
+      "image": "https://i.postimg.cc/qqv420vy/book.png",
       "shortDescription": "Site for Henriette Sandven",
       "startDate": "13-12-2025",
       "endDate": "",
@@ -187,11 +187,11 @@
           }
         ],
         "highlights": ["Real project with real client"],
-        "imagesFolder": "public/diagnosefellen",
+        "imagesFolder": "",
         "images": [
-          { "image": "LeiknyHavik-Avstandsbilde.webp", "span": 2 },
-          { "image": "book.webp", "span": 2 },
-          { "image": "LeiknyHavik-Normal.webp", "span": 2 }
+          { "image": "https://i.postimg.cc/RhZ4w9Z7/Leikny_Havik_Avstandsbilde.webp", "span": 2 },
+          { "image": "https://i.postimg.cc/qqv420vy/book.png", "span": 2 },
+          { "image": "https://i.postimg.cc/rswM5cwS/Leikny_Havik_Normal.webp", "span": 2 }
         ]
       }
     }

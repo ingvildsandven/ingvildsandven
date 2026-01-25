@@ -48,7 +48,7 @@ function ExperiencePage() {
         <h1>{data.title}</h1>
         <p>{data.description}</p>
       </section>
-      <ImageGrid images={data.images} folderTitle={data.title.toLowerCase()} />
+      <ImageGrid images={data.images} folderTitle={""} />
     </main>
   );
 }

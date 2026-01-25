@@ -13,10 +13,11 @@
 
 .card, .card_container, .card img {
   border-radius: 15px;
-  min-width: 200px;
-  width: 30vw;
-  height: 25vh;
-  max-height: 200px;
+  min-width: 300px;
+  width: 35vw;
+  height: 28vh;
+  min-height: 150px;
+  max-width: 350px;
 }
 
 .card img {

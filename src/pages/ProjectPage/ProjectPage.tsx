@@ -153,7 +153,7 @@ function ProjectPage() {
           })}
         </ul>
 
-        {projectData.longDescription.imagesFolder ? (
+        {projectData.longDescription.images[0] ? (
           <>
             <div className={style.header_container}>
               <span className={style.line}></span>

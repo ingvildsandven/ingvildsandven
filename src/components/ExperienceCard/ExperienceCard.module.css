@@ -58,8 +58,18 @@
 
 @media (max-width: 600px) {
   .experience_card,
-  .overlay {
+  .overlay, .title_container {
     width: 80vw;
     height: 80vw;
   }
+
+  .overlay, .title{
+    opacity: 1;
+  }
+
+  .title{
+     transform: scale(1.3);
+  }
+
+
 }
