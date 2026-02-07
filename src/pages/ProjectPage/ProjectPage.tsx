@@ -70,12 +70,13 @@ function ProjectPage() {
           <article className={style.technology_article}>
             <h3 className={style.h3}>Technology</h3>
             <ul>
-              {projectData.longDescription.technologyHighlights.map((tech) => {
+              {projectData.longDescription.technologyHighlights.map((tech, idx) => {
                 return (
                   <SkillButton
                     skill={tech.skill}
                     logo={tech.logo}
                     link={tech.link}
+                    key={idx}
                   />
                 );
               })}
@@ -92,9 +93,9 @@ function ProjectPage() {
           {projectData.collaborators[0] ? (
             <article className={style.collaborators_article}>
               <h3 className={style.h3}>Collaborators</h3>
-              {projectData.collaborators.map((person) => {
+              {projectData.collaborators.map((person, idx) => {
                 return (
-                  <article>
+                  <article key={idx}>
                     <h4>{person.name}</h4>
                     <SkillButton
                       skill={"GitHub"}

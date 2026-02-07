@@ -7,13 +7,13 @@ function ExperienceComponent() {
       <h2 className={style.experience_title}>Experience</h2>
       <div className={style.experience_card_container}>
         <ExperienceCard
-          img_link="https://i.postimg.cc/gcgYmwMF/graphcore.jpg"
+          img_link="https://i.postimg.cc/W473Bst9/graphcore.webp"
           alt="Graphcore logo"
           title="Graphcore"
           page_link="/experience/Graphcore"
         />
         <ExperienceCard
-          img_link="/src/assets/online/online_dark.webp"
+          img_link="https://i.postimg.cc/Pxxsf2Lm/online_dark.png"
           page_link="/experience/Online"
           alt="Online logo"
           title="Online"
