@@ -85,8 +85,8 @@ function ProjectPage() {
           <article className={style.highlights_article}>
             <h3 className={style.h3}>Highlights</h3>
             <ul>
-              {projectData.longDescription.highlights.map((high) => {
-                return <li key={high}>{high}</li>;
+              {projectData.longDescription.highlights.map((high, idx) => {
+                return <li key={idx}>{high}</li>;
               })}
             </ul>
           </article>
