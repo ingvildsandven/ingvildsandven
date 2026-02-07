@@ -126,6 +126,11 @@
         "skill": "Java JDK",
         "logo": "/icons/java.svg",
         "link": "https://www.java.com/en/"
+      },
+      {
+        "skill": "PostgreSQL",
+        "logo": "/icons/PostgreSQL.svg",
+        "link": "https://www.postgresql.org/"
       }
     ]
   }
