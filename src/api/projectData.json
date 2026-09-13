@@ -270,22 +270,21 @@
     "diagnosefellen": {
       "title": "Diagnosefellen",
       "github": "https://github.com/ingvildsandven/diagnosefellen/",
-      "hosted": "",
+      "hosted": "https://diagnosefellen.no/",
       "image": "https://i.postimg.cc/jShZMhq9/Screenshot-2026-08-17-203301.png",
       "shortDescription": "Site for Henriette Sandven",
       "startDate": "13-12-2025",
-      "endDate": "",
+      "endDate": "14-09-2026",
       "collaborators": [],
       "longDescription": {
         "intro": "Henriette Sandven is a specialist in child and adolescent psychiatry, and in 2025 she published the book Diagnosefellen, which discusses how too many children today are being diagnosed and medicated unnecessarily. She has been particularly outspoken in the public ADHD debate, which has received significant attention in Norwegian media. With over 15 years of clinical experience, Henriette has developed a strong professional voice in her field — and, as her name suggests, I am also proud to be her daughter.",
         "motivation": "Following the publication of Diagnosefellen, Henriette has participated in podcasts, interviews, articles, lectures, and other public appearances. The goal of this project was to gather this content in one place while also providing an easy way for event organizers and media outlets to contact and book her for speaking engagements.",
-        "process": "I designed and developed diagnosefellen.no from the ground up. The MVP is complete, although the website is still under active development. The site provides a paginated media archive where Henriette's articles, podcasts, interviews, and other appearances can be easily found. I also implemented a booking form and mailing service, allowing speaking and media requests to be sent directly through the website.\n\n To make the site maintainable without requiring changes to the code, I created a protected admin interface where Henriette can add new media appearances herself. When a link is entered, a script automatically retrieves available metadata such as the title, description, and image and uses it to pre-fill the form. The information can then be reviewed and edited before the post is published.\n\n The project also includes database integration, authentication, pagination, and functionality for managing media posts.",
+        "process": "I designed and developed diagnosefellen.no from the ground up. The page is complete with the functionalities Henriette required, although the website is still under some development. The site provides a paginated media archive where Henriette's articles, podcasts, interviews, and other appearances can be easily found. I also implemented a booking form and mailing service, allowing speaking and media requests to be sent directly through the website.\n\n To make the site maintainable without requiring changes to the code, I created a protected admin interface where Henriette can add new media appearances herself. When a link is entered, a script automatically retrieves available metadata such as the title, description, and image and uses it to pre-fill the form. The information can then be reviewed and edited before the post is published.\n\n The project also includes database integration, authentication, pagination, and functionality for managing media posts.",
         "futureAdditions": [
-          "Admin site",
-          "Mail setup for Resend",
-          "Booking form",
-          "Booking security with focus on security from hate mail",
-          "Main page containing links and images"
+          "More filtering options",
+          "Search function",
+          "Session and local storage for filtering",
+          "Henriette is working on a new book, info about this will be added to the page."
         ],
         "technologyHighlights": [
           {
@@ -320,9 +319,10 @@
           }
         ],
         "highlights": [
-          "Real project with real client",
-          "Hosted webpage that will be used",
-          "Mail for domain diagnosefellen.no is set up"
+          "Site that is in use",
+          "Admin site",
+          "Hosted webpage",
+          "Booking form using resend"
         ],
         "imagesFolder": "",
         "images": [
